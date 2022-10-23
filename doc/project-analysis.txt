@@ -1,0 +1,177 @@
+Project2Analysis.txt
+
+Analysis for Project2 in the CI WebCourse
+
+# Consideration One: XB-Promo Overview and Introduction to the XBasic Programming Language
+
+## Contents
+
+    Introduction
+
+## Introduction
+
+21/10/22
+The background to this project is a requirement from the CI course
+to produce an interactive website by no later than 10/12/22, which
+is 48 man days. The mooted project is to promote and provide a
+summary overview of the XBasic programming language and PDE, to
+dovetail the CI requirement with a group interest.
+
+The following is the workings-out of the project design.
+
+## Strategy / Scope
+
+### Scheduling Limitations (budget)
+As only one person (myself) is permitted to work on this project
+all real days are interpreted as man days. This provides the 
+limitations within which the website is to be produced.
+
+    Planning/Analysis       6
+    JS Studies              8
+    Gathering Data/images   7
+    Coding                  9
+    Debugging/Testing       5
+    README notes            4
+    Margin of Error         5
+    External Events         6
+    TOTAL                   48
+
+### Deliverables and UCD
+    The weakest link in the schedule is in coding days (9) which 
+    really only allows for two or three website pages. So this section
+    considers what can be usefully delivered to the user within
+    that constraint.
+
+    The primary features of the XBasic language are the provision
+    of a PDE (Program Development Environment) and an interactive
+    window designer (toolbox), so these things should certainly
+    appear on the main page.
+
+    It would also be good to show debugging features on the main
+    page.
+
+    In addition, contact details should be provided on the first
+    page, along with an interest group registration. These two
+    things can be made somewhat JS interactive.
+
+    The second page should provide a more detailed view of the window
+    design tool. This could be done using screenshot images which can
+    be stepped forward or back through by the user, thereby fulfilling
+    the CI interactive requirement and providing the user with handy
+    information in assessing the product.
+
+    If these works fit well within the time frame then a third, 
+    debugging demonstration page, can be developed.
+
+    An important question to consider is whether screenshots will
+    show as legible on mobile screen?
+    At 350px width it is unlikely that appropriate screenshots 
+    will be adequately displayed. 
+
+	So this project is suspended for the time being. Better to 
+	design it for larger screens only, which would be in the
+	target market anyway.
+
+# Re-analysis for new project idea
+	
+	The following limitations apply:
+		2 or 3 Pages
+		Must adequately fit 350px but be suitably scalable to 1500px
+		Must have JS interactive element(s)
+		Should not breach the copyright rules
+
+
+	The idea of presenting an interactive, possibly branching sequence
+	of graphic images is probably a good idea to meet the third objective.
+	To scale-up to 1500px, we either need at least a two section display
+	that can be adjusted to two columns, or image(s) that are adequately
+	scalable.
+
+	Suppose that we decide on three image areas, if two are static and the
+	middle one interactive, then we meet our criterion, we can arrange
+	our static images one above the other for the 350px display.
+	the third image should be adequately scalable from 350px to say 1000px
+	to allow for an intermediate 2 column layout. So the third image
+	should be pictorial.
+
+	We can ask the question - what product/service/subject would be well-
+	served by a sequence of graphics?
+
+	One thing that springs to mind is a recipe for cooking, which could
+	involve the use of text as well. This might consist of 9 or 10 image 
+	steps which would be usefully presented with step-forward as well 
+	as step-back.
+
+	The first column could be an image of the raw materials with a text 
+	introduction and the third being the final product dished-up.
+
+	The second page could be a pudding to accompany the meal on the main
+	page.
+
+	We could call the site "culinary-delight"
+
+	This sounds like a much more manageable project.
+
+# culinary-delight Website Analysis
+
+## Strategy/Content/Scope 
+
+	Time limitations:
+
+    Planning/Analysis       5
+    JS Studies              8
+    Gathering Data/images   7
+    Coding                  10
+    Debugging/Testing       5
+    README notes            4
+    Margin of Error         5
+    External Events         6
+    TOTAL                   48
+
+
+					Calendar
+	Complete Planning/Analysis 	Thu 27/10/22
+	Complete Data Gathering		Thu 03/11/22
+	Complete JS Studies			Sun 11/11/22
+	Complete Coding				Mon	21/11/22
+	Project Start Review		Tue 22/11/22
+	Complete Debugging/Testing	Sun 27/11/22
+	README Notes				Thu	01/11/22
+	Mid-Project Review			Fri 02/12/22
+	Margin
+	End-Project Review			Thu	08/12/22
+	Submit Project 2			Fri 09/12/22
+
+### Content
+	Page 1
+		Introduction to culinary-delight
+			General Image and text
+		Registration Details
+		Credits
+
+	Page 2
+		Ingredients image and list
+		Main Course Recipe Image loader
+		Result Image
+
+	Page 3
+		Ingredients image and list
+		Dessert Recipe Image loader
+		Result Image
+
+
+	If there is time at the end, allow for a starter on the main page
+	with the main and pudding on the second and third.
+
+## Structure
+	
+## Surface
+
+### Fonts
+	The fonts should be easily readable for the purposes of instruction, but
+	should also convey a somewhat arty flair to go with the subject matter.
+	The google font Acme seems to fulfil this role. Since it is quite a bold
+	font, a weight of about 300 should be used as default.
+
+## Credits
+	Wikimedia - parsley sprig
