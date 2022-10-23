@@ -146,9 +146,11 @@ limitations within which the website is to be produced.
 	Page 1
 		Introduction to culinary-delight
 			General Image and text
-		Registration Details
+		Contact
 		Credits
-
+		Registration Details
+		Comments
+	
 	Page 2
 		Ingredients image and list
 		Main Course Recipe Image loader
@@ -164,6 +166,19 @@ limitations within which the website is to be produced.
 	with the main and pudding on the second and third.
 
 ## Structure
+
+	The main page headline consists of a logo and the title text.
+	The following line of the menu, which has the items
+		Main
+		Dessert
+		HOME
+	Possibly include Icons to the left of the items.
+
+	The title image follows the header and maintains
+	as the full width (max 1500px) and is about 200px high
+	
+	The following section is the introduction and associated
+	image. The 
 	
 ## Surface
 
