@@ -1,14 +1,28 @@
 Project2Analysis.txt
 
-Analysis for Project2 in the CI WebCourse
+# Analysis for Project2 in the CI WebCourse
+
+Contents
+
+	Consideration One: XB-Promo Overview and Introduction to XBasic Programming Language
+		Introduction - XBasic Project
+		Strategy/Scope
+			Scheduling Limitations 
+			Deliverables and UCD 
+	Re-analysis for New Project Idea
+	culinary-delight Website Analysis
+		Strategy/Content/Scope
+			Content
+		Structure
+		Surface
+			Fonts 
+			Colour Scheme
+		Javascript Structure and Components
+		Credits
 
 # Consideration One: XB-Promo Overview and Introduction to the XBasic Programming Language
 
-## Contents
-
-    Introduction
-
-## Introduction
+## Introduction - XBasic Project
 
 21/10/22
 The background to this project is a requirement from the CI course
@@ -72,7 +86,7 @@ limitations within which the website is to be produced.
 	design it for larger screens only, which would be in the
 	target market anyway.
 
-# Re-analysis for new project idea
+# Re-analysis for New Project Idea
 	
 	The following limitations apply:
 		2 or 3 Pages
@@ -162,11 +176,12 @@ limitations within which the website is to be produced.
 		Result Image
 
 
-	If there is time at the end, allow for a starter on the main page
-	with the main and pudding on the second and third.
+	If there is time at the end, allow for a starter as the second
+	page.
 
 ## Structure
 
+### Main Page
 	The main page headline consists of a logo and the title text.
 	The following line of the menu, which has the items
 		Main
@@ -175,11 +190,41 @@ limitations within which the website is to be produced.
 	Possibly include Icons to the left of the items.
 
 	The title image follows the header and maintains
-	as the full width (max 1500px) and is about 200px high
+	as the full width (max 1500px) and is about 350px high.
+	This has a floating panel introducing the organisation
 	
 	The following section is the introduction and associated
-	image. The 
-	
+	image. 
+
+### Recipe Pages
+	The two recipe pages are very similar, so they can be represented
+	by a single HTML page, with data supplied from a javascript object.
+	To allow for this the menu links should include relevant URL data.
+
+	(For the recipe data objects see assets/js/recipe-data.js).
+
+	The advantage of this approach is uniformity of design and ease
+	of update with new recipes and combinations.
+
+	The data consists of the following:
+
+		Title Section Full-width, centred
+			Course title (ie "WEEK 1 MAIN COURSE")
+			Recipe title
+			Recipe description
+
+		Recipe Section (three columns)
+			Ingredients Image
+			Ingredients list and Utensils (if any mentioned)
+			Recipe Step loader
+				Image(s)
+				Text
+				Slider Control
+				Next and Previous Buttons
+
+		Finished Product Section
+			Image of the completed dish
+			
 ## Surface
 
 ### Fonts
@@ -188,5 +233,21 @@ limitations within which the website is to be produced.
 	The google font Acme seems to fulfil this role. Since it is quite a bold
 	font, a weight of about 300 should be used as default.
 
+### Colour Scheme
+	An easy on the eye colour scheme should be chosen for the site, a bluish
+	turquoise seems appropriate for a cooking site. Headings can be picked-out
+	in a deeper, with text changing to white if the depth of colour justifies it.
+
+## Javascript Structure and Components
+	Javascript is used on the site in the following situations:
+		On the recipe page:
+			Data loader to collect images and ingredients display data (select by URL parameters)
+				URL reader etc.
+			Next and Previous recipe image and text buttons
+			Recipe image and text slider operation
+			Recipe print-out option button operation
+
+
 ## Credits
 	Wikimedia - parsley sprig
+	Apple Tarte Tatin recipe - courtesy CLASSIC Mary Berry
