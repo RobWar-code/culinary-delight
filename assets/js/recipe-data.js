@@ -65,7 +65,74 @@ const recipe = [
         ],
         steps: [
             [
-                
+                "Peel and halve the potatoes"
+            ],
+            [
+                "Peel/scrape the carrots and cut into small (1cm) chunks"
+            ],
+            [
+                "Place carrots and potatoes in a saucepan and cover with water. Add a sprinkle of salt. Simmer on the hob for 30 minutes",
+                "Do next while this is cooking .."
+            ],
+            [
+                "Peel and cut the onion into small pieces"
+            ],
+            [
+                "Pour a little cooking oil into the frying pan and heat for one minute"
+            ],
+            [
+                "Put the onion into the frying-pan. Stir occasionally and cook until glazed and soft."
+                "Do next while this is cooking ..",
+            ],
+            [
+                "Split the garlic bulb in half and use the pieces from one half. Peel the pieces and then cut as small as you reasonably can"
+            ],
+            [
+                "Once the onion is cooked, add the minced beef and the garlic to the onion in the frying-pan and mix-in well. Stir and cook until all the red of the meat is gone"
+            ],
+            [
+                "When the minced beef is ready, put it all into a saucepan and add 1/2 tin of chopped tomatoes. Add 1/3 mug of water. Cook on the hob for 30 minutes, stirring occasionally.",
+                "Do next while this is cooking .."
+            ],
+            [
+                "Add a sprinkle of salt, 1/2 teaspoon ground black pepper and 1 teaspoon dried mixed herbs to the meat in the saucepan and stir-in"
+            ],
+            [
+                "Once the potatoes are soft, drain the saucepan and separate the potatoes to mash. Add the carrots to the meat in the saucepan and stir-in"
+            ],
+            [
+                "Add a generous knob of butter/margarine to the potatoes and mash"
+            ],
+            [
+                "Once the meat etc. has been cooked for 30 minutes transfer the mix to a suitable baking tin (9 inch). Spread to cover the base evenly"
+            ],
+            [
+                "Split the cauliflower into it's florettes"
+            ],
+            [
+                "Put the cauliflower in a saucepan and cover with water, simmer for 25 minutes, until slightly tender",
+                "Do next while this is cooking .."
+            ],
+            [
+                "Grate the 100g cheese"
+            ],
+            [
+                "Cover the meat mix in the baking tin evenly with the mashed potato. Best to put it on in small amounts"
+            ],
+            [
+                "Sprinkle the cheese evenly onto the mashed potato"
+            ],
+            [
+                "Cut the tomato in two and then into about a dozen small slivers"
+            ],
+            [
+                "Arrange the tomato pieces evenly on top of the grated cheese"
+            ],
+            [
+                "Place the meat dish in the oven at 200 degrees C and bake for 15 minutes or until a little golden brown"
+            ],
+            [
+                "When all is cooked - dish-up - Bon Appetit"
             ]
         ]
     }
