@@ -81,8 +81,8 @@ const recipe = [
                 "Pour a little cooking oil into the frying pan and heat for one minute"
             ],
             [
-                "Put the onion into the frying-pan. Stir occasionally and cook until glazed and soft."
-                "Do next while this is cooking ..",
+                "Put the onion into the frying-pan. Stir occasionally and cook until glazed and soft.",
+                "Do next while this is cooking .."
             ],
             [
                 "Split the garlic bulb in half and use the pieces from one half. Peel the pieces and then cut as small as you reasonably can"
