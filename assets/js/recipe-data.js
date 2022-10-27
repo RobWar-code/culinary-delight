@@ -132,7 +132,29 @@ const recipe = [
                 "Place the meat dish in the oven at 200 degrees C and bake for 15 minutes or until a little golden brown"
             ],
             [
-                "When all is cooked - dish-up - Bon Appetit"
+                "When all is cooked - dish-up - Bon Appetit!"
+            ]
+        ]
+    },
+    {
+        title: "Apple Tarte Tatin",
+        course: "dessert",
+        description: "A delicious \"upside-down\" apple medley. Excellent as a follow-on to traditional English meals. You can prepare this before the main and serve warm or cold.",
+        credits: "Recipe Courtesy - CLASSIC Mary Berry (BBC Books)",
+        ingredients: [
+            "175g granulated sugar",
+            "Butter, for greasing",
+            "2 or 3 bramley apples, to make 200g when peeled and cut",
+            "2 tablespoons caster sugar",
+            "4 large eating apples",
+            "Plain flour for dusting"
+        ],
+        utensils: [
+            "", // String, utensil item
+        ],
+        steps: [
+            [
+                "", // String one or more paragraphs for recipe step
             ]
         ]
     }
