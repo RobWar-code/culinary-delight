@@ -147,14 +147,59 @@ const recipe = [
             "2 or 3 bramley apples, to make 200g when peeled and cut",
             "2 tablespoons caster sugar",
             "4 large eating apples",
-            "Plain flour for dusting"
+            "Plain flour for dusting",
+            "375g block all butter puff pastry"
         ],
         utensils: [
-            "", // String, utensil item
+            "9 inch fixed-base deep-sided cake tin",
+            "Stainless steel saucepan"
         ],
         steps: [
             [
-                "", // String one or more paragraphs for recipe step
+                "Make caramel as follows: put 175g granulated sugar and 6 tablespoons of water into the saucepan",
+            ],
+            [
+                "Heat the sugar solution gently and stir until dissolved. Boil until a golden straw colour"
+            ],
+            [
+                "Once the caramel is a golden straw colour pour to spread evenly over the base of the cake tin and stand aside to set for 30 minutes.",
+                "Do next while waiting .. "
+            ],
+            [
+                "Core, peel and cut the bramley apples into 2cm chunks"
+            ],
+            [
+                "Put the bramley apples, 2 tablespoons of caster sugar and 2 tablespoons of water into the saucepan and simmer on the hob until the apple is soft"
+            ],
+            [
+                "Once the bramley apples are soft, take off the heat and mash to a puree with a fork"
+            ],
+            [
+                "Peel and core the eating apples and cut into slivers about 5mm thick"
+            ],
+            [
+                "When the caramel in the tin has set butter the sides of the tin then arrange a layer of the eating apple slices over it, to cover"
+            ],
+            [
+                "Scatter the remaining eating apple pieces evenly over the arranged layer"
+            ],
+            [
+                "Spread the bramley apple puree evenly over the top of the eating apple pieces"
+            ],
+            [
+                "Dust a board with plain flour and use it to roll-out a circle of puff pastry about 2cm wider than the cake tin"
+            ],
+            [
+                "Cover the apple in the tin with the circle of pastry and tuck-in to the sides around the edges. Cut a small cross in the centre of the pastry to let the steam out"
+            ],
+            [
+                "Pre-heat the oven (if necessary) to 220 degrees C, place the tin in the oven and bake for 35-40 minutes or until light golden brown"
+            ],
+            [
+                "Take the tin from the oven and place a dinner-plate upside-down over it, then turn the tin and the plate over, so that the fruit and caramel are on top"
+            ],
+            [
+                "Serve with cream and enjoy - Bon Appetit!"
             ]
         ]
     }
