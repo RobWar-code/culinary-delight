@@ -257,6 +257,18 @@ limitations within which the website is to be produced.
 	turquoise seems appropriate for a cooking site. Headings can be picked-out
 	in a deeper, with text changing to white if the depth of colour justifies it.
 
+### Recipe Pages
+	The recipe image/text div has a set of controls these are:
+		slider
+		left arrow (previous)
+		right arrow (next)
+		Plus comment - Read through all first
+		Print recipe button
+		
+### Footer links
+	The footer has a Back-to-Top button, links to social media and
+	css check-off icon 
+
 ## Javascript Structure and Components
 	Javascript is used on the site in the following situations:
 		On the recipe page:

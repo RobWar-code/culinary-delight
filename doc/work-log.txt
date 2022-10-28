@@ -1,10 +1,14 @@
 Work Due
-    Do background picture for registration form
- 
-    Do the structure/skeleton analysis in more detail
-    
+     
+    Do the javascript course for 8 days
 
 Work Done
+    29/10/22
+
+        * Do background picture for registration form
+    
+        * Do the structure/skeleton analysis in more detail
+
     28/10/22
 
       * Prepare the javascript data object for the recipes
