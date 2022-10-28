@@ -160,6 +160,7 @@ limitations within which the website is to be produced.
 	Page 1
 		Introduction to culinary-delight
 			General Image and text
+		This Week's Menu article and pics
 		Contact
 		Credits
 		Registration Details
@@ -179,7 +180,7 @@ limitations within which the website is to be produced.
 	If there is time at the end, allow for a starter as the second
 	page.
 
-## Structure
+## Structure/Skeleton
 
 ### Main Page
 	The main page headline consists of a logo and the title text.
@@ -195,6 +196,22 @@ limitations within which the website is to be produced.
 	
 	The following section is the introduction and associated
 	image. 
+
+	The next section is an article about the week's menu
+	and the main and dessert pics.
+
+	The next section is for registration and associated pic
+
+	The following section is for contact details
+	
+	The next section is for credits
+
+
+	The final for the user to enter comments
+
+	The footer has links to social media, a back to top button and 
+	link to CSS check.
+
 
 ### Recipe Pages
 	The two recipe pages are very similar, so they can be represented
