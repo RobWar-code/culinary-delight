@@ -1,11 +1,14 @@
 Work Due
-
-    Prepare the javascript data object for the recipes
-
+    Do background picture for registration form
+ 
     Do the structure/skeleton analysis in more detail
     
 
 Work Done
+    28/10/22
+
+      * Prepare the javascript data object for the recipes
+
     26/10/22
         * Gather the data/materials for the main course
 
