@@ -181,6 +181,7 @@ limitations within which the website is to be produced.
 	page.
 
 ## Structure/Skeleton
+	See Also: balsamiq layouts doc/culinary-delight.bmpr
 
 ### Main Page
 	The main page headline consists of a logo and the title text.
@@ -226,6 +227,7 @@ limitations within which the website is to be produced.
 	The data consists of the following:
 
 		Title Section Full-width, centred
+			Recipe Finished Pic
 			Course title (ie "WEEK 1 MAIN COURSE")
 			Recipe title
 			Recipe description
