@@ -143,14 +143,14 @@ limitations within which the website is to be produced.
     TOTAL                   48
 
 
-					Calendar
-	Complete Planning/Analysis 	Thu 27/10/22
-	Complete Data Gathering		Thu 03/11/22
+					Calendar					Actual
+	Complete Planning/Analysis 	Thu 27/10/22	29/11/22
+	Complete Data Gathering		Thu 03/11/22	29/11/22
 	Complete JS Studies			Sun 11/11/22
 	Complete Coding				Mon	21/11/22
 	Project Start Review		Tue 22/11/22
 	Complete Debugging/Testing	Sun 27/11/22
-	README Notes				Thu	01/11/22
+	README Notes				Thu	01/12/22
 	Mid-Project Review			Fri 02/12/22
 	Margin
 	End-Project Review			Thu	08/12/22
@@ -271,6 +271,9 @@ limitations within which the website is to be produced.
 
 ## Javascript Structure and Components
 	Javascript is used on the site in the following situations:
+		On the main page:
+			Registration form to display submitted
+
 		On the recipe page:
 			Data loader to collect images and ingredients display data (select by URL parameters)
 				URL reader etc.
