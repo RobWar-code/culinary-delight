@@ -11,7 +11,10 @@ document.addEventListener("DOMContentLoaded", function() {
     displayMenuArticle(weekNum);
 
     // User registration event (submit)
-    document.getElementById("submit-registration").addEventListener("click", registrationSubmitted)
+    document.getElementById("submit-registration").addEventListener("click", registrationSubmitted);
+
+    // User comments event (submit button)
+    document.getElementById("submit-comments").addEventListener("click", commentsSubmitted);
 });
 
 /**
@@ -84,5 +87,29 @@ function registrationSubmitted(event) {
     status.innerText = "Registration Submitted";
 
     // For future use, restore the default call to the action (form.submit())
+}
 
+/**
+ * When the comments are submitted, check whether they are blank, otherwise
+ * set the status to submitted.
+ * @param {} event 
+ */
+function commentsSubmitted(event) {
+    // Check whether comments already submitted
+    let statusElem = document.getElementById("comments-status");
+    if (statusElem.innerText === "Comments Submitted") {
+        alert("You have already submitted comments");
+        return;
+    }
+    // Check whether the comment is ""
+    let commentElem = document.getElementById("comments");
+    if (commentElem.value == "") {
+        alert("You have not entered any comments");
+        return;
+    }
+    // Update the status
+    statusElem.style.display = "inline-block";
+    statusElem.innerText = "Comments Submitted";
+
+    // In a live setting a call to the relevant server function would occur here
 }
