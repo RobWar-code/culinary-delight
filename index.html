@@ -52,7 +52,7 @@
             <div id="main-pic-div">
                 <img id="main-img" alt="Main Course Image">
             </div>
-            <div id="menu-div">
+            <div id="menu-article-div">
                 <h2>Selection for this Week 1</h2>
                 <p id="menu-article"></p>
             </div>
@@ -62,8 +62,23 @@
         </section>
 
         <!-- Registration Section -->
-        <section>
-
+        <section id="registration-section">
+            <div id="registration-div">
+                <h2>Register for email Recipes</h2>
+                <!-- The action and method can be set if the site goes live -->
+                <form>
+                    <label for="fname">First Name</label>
+                    <input class="reg-input" id="fname" name="first_name" type="text" placeholder="First-Name" required>
+                    <label for="lname">Last Name</label>
+                    <input class="reg-input" id="lname" name="last_name" type="text" placeholder="Last-Name" required>
+                    <label for="email">Email Address</label>
+                    <input class="reg-input" id="email" name="email_address" type="email" placeholder="john-smith@gmail.com" required>
+                    <label for="pwd">Password</label>
+                    <input class="reg-input" id="pwd" name="password" type="password" required>
+                    <input class="submit" id="submit-registration" type="submit" value="SUBMIT">
+                </form>
+                <p id="registration-status"></p>
+            </div>
         </section>
 
         <!-- User Comments Section -->

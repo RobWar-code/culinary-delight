@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // In live use the week number should be calculated
     let weekNum = 1;
     displayMenuArticle(weekNum);
+
+    // User registration event (submit)
+    document.getElementById("submit-registration").addEventListener("click", registrationSubmitted)
 });
 
 /**
@@ -46,4 +49,40 @@ function getMenuArticle(weekNum) {
         return "";
     }
     return menu.article;
+}
+
+/**
+ * When the registration form is submitted, check it and report status
+ */
+function registrationSubmitted(event) {
+    // Suppress default actions
+    event.preventDefault();
+
+    // Check whether already submitted
+    let submitStatus = document.getElementById("registration-status").textContent;
+    if (submitStatus === "Registration Submitted") {
+        alert("Registration already submitted");
+        return;
+    }
+    // Check whether all input fields completed
+    let inputElems = document.getElementsByTagName("input");
+    let allDone = true;
+    for (let inputElem of inputElems) {
+        if (inputElem.value == "") {
+            allDone = false;
+            break;
+        }
+    }
+    if (!allDone) {
+        alert("You have not completed all fields in the form!");
+        return;
+    }
+
+    // Set the completed status
+    let status = document.getElementById("registration-status");
+    status.style.display = "inline-block";
+    status.innerText = "Registration Submitted";
+
+    // For future use, restore the default call to the action (form.submit())
+
 }
