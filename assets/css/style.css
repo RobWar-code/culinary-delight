@@ -47,7 +47,8 @@ h1 {
 /* Menu */
 #menu-bar-div {
     width: 100%;
-    background: #009090;
+    height: 40px;
+    background: #007070;
 }
 #menu-div {
     float: right;
@@ -69,4 +70,47 @@ h1 {
 }
 .current-page {
     text-decoration: underline;
+}
+/* Introductory Section */
+#introductory-section {
+    clear: both;
+    width: 100%;
+    height: 440px;
+    background: url("../images/intro-1600px.png") right top no-repeat #007070;
+    overflow: hidden;
+    position: relative;
+}
+#introduction-div {
+    width: 320px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    background: rgba(0, 200, 200, 0.7);
+}
+/* Menu Article Section */
+#menu-article-section {
+    margin-top: 10px;
+    width: 100%;
+}
+#menu-article-section > div {
+    width: calc(33% - 13px);
+}
+#menu-article-section > div img {
+    width: 100%;
+}
+#main-pic-div {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#menu-div {
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+#menu-div a {
+    color: #002020;
+}
+#dessert-pic-div {
+    float: left;
 }

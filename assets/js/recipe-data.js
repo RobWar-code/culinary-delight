@@ -3,6 +3,11 @@
 const weeklyRecipes = [
     {
         weekNumber: 1,
+        article: `This week's recipes consist of a good old-fashioned main course
+            spiced-up and re-presented - 
+            <a href="recipe.html?week_num=1&course=main" title="Main Course Page">"Special Cottage Pie"</a> 
+            followed by a delicious dessert to satisfy any craving - 
+            <a href="recipe.html?week_num=1&course=dessert" title="Dessert Page">"Apple Tarte Tatin"</a>`,
         courses: [
             {
                 course: "main",

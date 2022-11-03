@@ -200,6 +200,7 @@ limitations within which the website is to be produced.
 
 	The next section is an article about the week's menu
 	and the main and dessert pics.
+	Javascript is used to fetch the article and images.
 
 	The next section is for registration and associated pic
 		Allow for submission status
@@ -274,6 +275,11 @@ limitations within which the website is to be produced.
 	Javascript is used on the site in the following situations:
 		On the main page:
 			file: main-page.js
+
+			On Page loaded 
+			Get the recipes article for the current week.
+				displayMenuArticle()
+					getMenuArticle()
 
 			Registration form to display submitted following checks
 			Allow for invalid values
