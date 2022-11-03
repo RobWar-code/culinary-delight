@@ -1,6 +1,17 @@
 Work Due
-     
-    Do the javascript course for 8 days
+    Further the javascript analysis in project-analysis.txt
+
+    Do the HTML for the main page
+
+    Do the CSS for the main page
+
+    Do the HTML for the recipe page(s)
+
+    Do the CSS for the recipe page(s)
+
+    Do the javascript for the recipe page(s)
+
+    * Do the javascript course for 8 days or completion
 
 Work Done
     29/10/22

@@ -144,9 +144,9 @@ limitations within which the website is to be produced.
 
 
 					Calendar					Actual
-	Complete Planning/Analysis 	Thu 27/10/22	29/11/22
-	Complete Data Gathering		Thu 03/11/22	29/11/22
-	Complete JS Studies			Sun 11/11/22
+	Complete Planning/Analysis 	Thu 27/10/22	29/10/22
+	Complete Data Gathering		Thu 03/11/22	29/10/22
+	Complete JS Studies			Fri 11/11/22	03/11/22
 	Complete Coding				Mon	21/11/22
 	Project Start Review		Tue 22/11/22
 	Complete Debugging/Testing	Sun 27/11/22
@@ -202,13 +202,14 @@ limitations within which the website is to be produced.
 	and the main and dessert pics.
 
 	The next section is for registration and associated pic
+		Allow for submission status
+
+	The next section is for comments
+		Allow for submission status
 
 	The following section is for contact details
 	
 	The next section is for credits
-
-
-	The final for the user to enter comments
 
 	The footer has links to social media, a back to top button and 
 	link to CSS check.
@@ -272,15 +273,38 @@ limitations within which the website is to be produced.
 ## Javascript Structure and Components
 	Javascript is used on the site in the following situations:
 		On the main page:
-			Registration form to display submitted
+			file: main-page.js
+
+			Registration form to display submitted following checks
+			Allow for invalid values
+				registrationSubmitted()
+
+			Comments form to display submitted following checks
+			Allow for invalid values
+				commentsSubmitted()
+
+			The events are the two submission events use the DOM loaded event to set these.
 
 		On the recipe page:
+			file: recipe-page.js
+
 			Data loader to collect images and ingredients display data (select by URL parameters)
 				URL reader etc.
+				loadRecipe()
 			Next and Previous recipe image and text buttons
+				nextRecipeStep()
+				prevRecipeStep()
 			Recipe image and text slider operation
+				slideToRecipeStep()
 			Recipe print-out option button operation
+				printRecipe()
 
+			Events:
+				DOM loaded - set the other events and set-up the recipe data for the page
+				prevButton click
+				nextButton click
+				slider input
+				printRecipeButton click
 
 ## Credits
 	Wikimedia - parsley sprig

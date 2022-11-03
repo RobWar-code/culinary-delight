@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Lato:ital,wght@1,300&family=Montserrat&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Domine:wght@500&family=Lato:ital,wght@1,300&family=Montserrat&family=Oswald:wght@300&display=swap');
 
 * {
     border: 0;
@@ -9,6 +9,12 @@ body {
     font-family: Acme, sans-serif;
     font-size: 124%;
     font-weight: lighter;
+    background-color: #007070;
+}
+#container {
+    max-width: 1600px;
+    width: 100%;
+    margin-left: 0 auto;
     background-color: #80e0e0;
 }
 /* Header */
@@ -29,7 +35,7 @@ body {
     width: 100%;
 }
 #heading-div {
-    width: 580px;
+    width: 440px;
     float: right;
 }
 h1 {
@@ -38,3 +44,29 @@ h1 {
     color: #e0e040;
 }
 
+/* Menu */
+#menu-bar-div {
+    width: 100%;
+    background: #009090;
+}
+#menu-div {
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#menu-div ul {
+    list-style: none;
+}
+#menu-div li {
+    display: inline;
+    background:#80e0e0;
+    margin-right: 10px;
+}
+#menu-div li a {
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.current-page {
+    text-decoration: underline;
+}
