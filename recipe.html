@@ -2,11 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Robin Warner">
+    <meta name="description" content="Weekly cooking recipe guide">
+    <meta name="keywords" content="culinary delight, cookery, recipes, weekly recipe, cookery guide">
+
+    <title>Culinary Delight - Wonderful Weekly Dishes</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/8b758f6b51.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <div id="container">
+        <header>
+            <div id="headline-div">
+                <div id="logo-div">
+                    <img id="logo-img" src="assets/images/logo.png" alt="Culinary Delight logo">
+                </div>
+                <div id="heading-div">
+                    <h1>Wonderful Weekly Dishes</h1>
+                </div>
+            </div>
+            <div id="menu-bar-div">
+                <div id="menu-div">
+                    <ul>
+                        <!-- In the live site the week_num would be calculated and inserted by js function -->
+                        <li><a href="recipe.html?week_num=1&course=main" title="Main Course Page">Main Course</a></li>
+                        <li><a href="recipe.html?week_num=1&course=dessert" title="Dessert Page">Dessert</a></li>
+                        <li><a href="index.html" title="Culinary Delight Main Page">HOME</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- Recipe Article Section -->
+        <section id="article-section">
+            <h2 id="course-title"></h2>
+            <h3 id="recipe-title"></h3>
+            <p id="article"></p>
+            <h3>Credits</h3>
+            <p id="credits"></p>
+        </section>
+
+        <!-- Recipe Section -->
+        <section id="recipe-section">
+            <div id="ingredients-pic-div">
+                <img id="ingredients-img" alt="Picture of Ingredients" title="Picture of Ingredients">
+            </div>
+            <div id="ingredients-div">
+                <h3>Ingredients</h3>
+                <ul id="ingredients-list">
+                </ul>
+                <h3>Utensils</h3>
+                <ul id="utensils-list">
+                </ul>
+            </div>
+            <div id="recipe-div">
+                <img alt="Recipe Step Image">
+                <div id="recipe-step-div">
+                </div>
+            </div>
+            <div id="recipe-controls-div">
+                <input id="slider" type="range"><br>
+                <i class="far fa-caret-square-right"></i>
+                <i class="far fa-caret-square-left"></i>
+            </div>
+        </section>
+
+
+
+        <footer>
+            <div class="page-top-link-div">
+                <div>
+                    <a href="#menu-bar-div">Back To Top</a>
+                </div>
+            </div>
+            <div class="social-networks-div">
+                <!-- Following Code Courtesy of CI Love Running Project -->
+                <ul class="social-networks">
+                    <li><a href="https://facebook.com" target="_blank" rel="noopener" 
+                        aria-label="Visit the facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com" target="_blank" rel="noopener" 
+                        aria-label="Visit the twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="https://youtube.com" target="_blank" rel="noopener" 
+                        aria-label="Visit the YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a></li> 
+                </ul>
+            </div>
+            <div class="css-validator-div">
+                <!-- Following Code Courtesy of W3C -->
+                <p>
+                    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://robwar-code.github.io/congo-animals/assets/css/style.css" target="_blank">
+                        <img style="border:0;width:88px;height:31px"
+                            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                            aria-label="Visit CSS validation site" alt="Valid CSS!">
+                    </a>
+                </p>
+            </div>
+        </footer>        
+    </div>
+    <script src="assets/js/recipe-data.js"></script>
+    <script src="assets/js/recipe-page.js"></script>
 </body>
 </html>
