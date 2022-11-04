@@ -1,9 +1,15 @@
 Work Due
     Further the javascript analysis in project-analysis.txt
 
-    Do the HTML for the main page
+    * Do the HTML for the main page
 
-    Do the CSS for the main page
+    * Do the CSS for the main Page
+
+    Do the CSS media queries/tests for main page
+        1200
+        950 - single column
+        450
+        300
 
     Do the HTML for the recipe page(s)
 
@@ -11,9 +17,11 @@ Work Due
 
     Do the javascript for the recipe page(s)
 
-    * Do the javascript course for 8 days or completion
 
 Work Done
+    03/11/22
+        * Do the javascript course for 8 days or completion
+
     29/10/22
 
         * Do background picture for registration form

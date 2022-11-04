@@ -12,13 +12,14 @@
     <title>Culinary Delight - Wonderful Weekly Dishes</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/8b758f6b51.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="container">
         <header>
             <div id="headline-div">
                 <div id="logo-div">
-                    <img src="assets/images/logo.png" alt="Culinary Delight logo">
+                    <img id="logo-img" src="assets/images/logo.png" alt="Culinary Delight logo">
                 </div>
                 <div id="heading-div">
                     <h1>Wonderful Weekly Dishes</h1>
@@ -81,22 +82,56 @@
             </div>
         </section>
 
-        <!-- User Comments Section -->
-        <section id="comments-section">
-            <div id="comments-div">
+        <div id="final-div">
+            <!-- User Comments Section -->
+            <section id="comments-section">
                 <h2>Enter Comments about our Recipes Here</h2>
                 <textarea id="comments" placeholder="Your comments here"></textarea><br>
                 <button class="submit" id="submit-comments">SUBMIT</button><br>
                 <p id="comments-status"></p>
-            </div>
-        </section>
+            </section>
 
-        <!-- Contact & Credits Section -->
-        <section>
-        </section>
+            <!-- Contact Section -->
+            <section id="contact-section">
+                <h2>Contact Details</h2>
+                <p>readers@culinary-delight.com</p>
+            </section>
+
+            <!-- Credits Section -->
+            <section id="credits-section">
+                <h2>Credits on this Page</h2>
+                <p>Sprig of Parsley Image: <a href="https://commons.wikimedia.org/wiki/File:Parsley_(49652566678).png">Tricholome</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+            </section>
+        </div>
 
         <footer>
-        </footer>
+            <div class="page-top-link-div">
+                <div>
+                    <a href="#menu-bar-div">Back To Top</a>
+                </div>
+            </div>
+            <div class="social-networks-div">
+                <!-- Following Code Courtesy of CI Love Running Project -->
+                <ul class="social-networks">
+                    <li><a href="https://facebook.com" target="_blank" rel="noopener" 
+                        aria-label="Visit the facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com" target="_blank" rel="noopener" 
+                        aria-label="Visit the twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="https://youtube.com" target="_blank" rel="noopener" 
+                        aria-label="Visit the YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a></li> 
+                </ul>
+            </div>
+            <div class="css-validator-div">
+                <!-- Following Code Courtesy of W3C -->
+                <p>
+                    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://robwar-code.github.io/congo-animals/assets/css/style.css" target="_blank">
+                        <img style="border:0;width:88px;height:31px"
+                            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                            aria-label="Visit CSS validation site" alt="Valid CSS!">
+                    </a>
+                </p>
+            </div>
+        </footer>        
     </div>
     <script src="assets/js/recipe-data.js"></script>
     <script src="assets/js/main-page.js"></script>

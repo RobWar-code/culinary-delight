@@ -210,7 +210,8 @@ limitations within which the website is to be produced.
 
 	The following section is for contact details
 	
-	The next section is for credits
+	The next section is for credits, these should be for the credits
+	on this page.
 
 	The footer has links to social media, a back to top button and 
 	link to CSS check.
@@ -233,6 +234,7 @@ limitations within which the website is to be produced.
 			Course title (ie "WEEK 1 MAIN COURSE")
 			Recipe title
 			Recipe description
+			Credits
 
 		Recipe Section (three columns)
 			Ingredients Image

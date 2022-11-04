@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Domine:wght@500&family=Lato:ital,wght@1,300&family=Montserrat&family=Oswald:wght@300&display=swap');
 
 * {
-    border: 0;
     margin: 0;
+    border: 0;
     padding: 0;
 }
 body {
@@ -13,7 +13,7 @@ body {
 }
 #container {
     max-width: 1600px;
-    width: 100%;
+    width: 98%;
     margin: 0 auto;
     background-color: #80e0e0;
 }
@@ -31,14 +31,15 @@ body {
     border-radius: 4px;
     float: left;
 }
-#logo-div img {
+#logo-img {
+    display: block;
     width: 100%;
 }
 #heading-div {
     width: 440px;
     float: right;
 }
-h1 {
+#heading-div h1 {
     line-height: 90px;
     font-size: 200%;
     color: #e0e040;
@@ -87,10 +88,10 @@ h1 {
 #introduction-div {
     width: 320px;
     position: absolute;
-    left: 30px;
-    top: 20px;
-    background: rgba(0, 200, 200, 0.7);
-    padding: 5px;
+    left: 40px;
+    top: 30px;
+    background: rgba(0, 200, 200, 0.8);
+    padding: 5px 5px 25px 5px;
 }
 /* Menu Article Section */
 #menu-article-section {
@@ -102,6 +103,7 @@ h1 {
 }
 #menu-article-section > div img {
     width: 100%;
+    display: block;
 }
 #main-pic-div {
     float: left;
@@ -163,15 +165,14 @@ h1 {
     color: red;
     font-style: italic;
 }
+/* final div style */
+#final-div {
+    background-image: linear-gradient(#004040, #00e0e0);
+    text-align: center;
+    padding-top: 10px;
+}
 /* User Comments Section */
 #comments-section {
-    width: 100%;
-    height: 250px;
-    margin-top: 10px;
-    padding-top: 20px;
-    background: #007070;
-}
-#comments-div {
     margin: 0 auto;
     width: 550px;
     height: 210px;
@@ -190,4 +191,98 @@ h1 {
     text-align: center;
     color: red;
     font-style: italic;
+}
+/* Contact Section */
+#contact-section {
+    text-align: center;
+}
+/* Credits Section */
+#credits-section {
+    margin-top: 10px;
+    text-align: center;
+}
+/* Footer */
+footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background: #007070;
+}
+.page-top-link-div {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.page-top-link-div a {
+    color: black;
+}
+.social-networks-div {
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.social-networks-div ul {
+    list-style: none;
+}
+.social-networks-div li {
+    display: inline;
+    background: #00e0e0;
+    padding: 8px;
+    margin-right: 5px;
+}
+.css-validator-div {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+    /* Heading Bar */
+    #headline-div {
+        width: 100%;
+        height: auto;
+    }
+    #logo-div {
+        float: none;
+        margin: 0 auto;
+        width: 40%;
+        height: auto;
+    }
+    #logo-img {
+        display: block;
+    }
+    #heading-div {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        width: 60%;
+        height: auto;
+    }
+    #heading-div h1 {
+        line-height: normal;
+    }
+    /* Menu Article */
+    #menu-article-section {
+        width: 100%;
+    }
+    #menu-article-section > div {
+        width: 92%;
+    }
+    #main-pic-div {
+        float: none;
+        margin: 0 auto;
+        border: 2px solid #002020;
+    }
+    #menu-article-div {
+        float: none;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }
+    #dessert-pic-div {
+        float: none;
+        margin: 0 auto;
+        border: 2px solid #002020;
+    }
+
 }
