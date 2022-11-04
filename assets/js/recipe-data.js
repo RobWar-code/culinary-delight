@@ -41,7 +41,7 @@ const weeklyRecipes = [
         ]
     }
 */
-const recipe = [
+const recipes = [
     {
         title: "Special Cottage Pie",
         course: "main",

@@ -237,6 +237,12 @@ footer {
     float: left;
     text-align: center;
 }
+/* Recipe Page */
+#article-section {
+    text-align: center;
+    background: linear-gradient(#006060, #00e0e0);
+}
+
 /* Media Queries */
 @media screen and (max-width: 1000px) {
     /* Heading Bar */

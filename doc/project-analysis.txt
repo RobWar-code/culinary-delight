@@ -299,10 +299,11 @@ limitations within which the website is to be produced.
 			Data loader to collect images and ingredients display data (select by URL parameters)
 				URL reader etc.
 				loadRecipe()
+					readURL()
 					set the menu underline attribute -setMenu()
 					set the course title bar 
-					set the recipe name
-					set the recipe article
+					set the recipe title
+					set the recipe description
 					set the recipe credits
 
 					set the ingredients picture

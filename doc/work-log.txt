@@ -5,11 +5,12 @@ Work Due
 
     * Do the CSS for the main Page
 
-    Do the CSS media queries/tests for main page
+    * Do the CSS media queries/tests for main page
         1200
-        950 - single column
+        1000 - single column
         450
-        300
+        350
+    Use smaller images for backgrounds for intro and registration
 
     Do the HTML for the recipe page(s)
 
