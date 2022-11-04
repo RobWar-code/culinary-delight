@@ -37,6 +37,19 @@ function loadRecipe() {
     let credits = getRecipeCredits(CDShared.weekNum, CDShared.course);
     creditsElem.innerHTML = credits;
 
+    // Recipe Details Section
+    // Set the ingredients picture
+    ingredientsImgElem = document.getElementById("ingredients-img");
+    // Derive the image file path
+    weekString = "0" + CDShared.weekNum;
+    if (weekString.length > 2) {
+        weekString = weekString.splice(weekString.length - 2);
+    }
+    let filePath = "assets/images/recipe-" + weekString + "-" + CDShared.course + "/ingredients-512px.png";
+    ingredientsImgElem.setAttribute("src", filePath);
+    // Set the ingredients list
+    setIngredientsList(CDShared.weekNum, CDShared.course);
+
 }
 /**
  * Read the variables from the url and pass to global object
@@ -60,12 +73,33 @@ function setMenuHighlight() {
         }
         else if (menuItem.innerText === "Dessert" && CDShared.course === "dessert") {
             menuItem.style.textDecoration = "underline";
-            console.log(menuItem.getAttribute("class"));
             break;            
         }
     }
 }
 
+/**
+ * Set the ingredients list in the display
+ * @param {*} weekNum 
+ * @param {*} course 
+ */
+function setIngredientsList(weekNum, course) {
+    let ingredientsList = getIngredients(weekNum, course);
+    let listElem = document.getElementById("ingredients-list");
+    let listHTML = "";
+    for (let ingredient of ingredientsList) {
+        listHTML += `<li>${ingredient}</li>`;
+    }
+    listElem.innerHTML = listHTML;
+}
+
+/**
+ * Get list of ingredients from the recipe
+ */
+function getIngredients(weekNum, course) {
+    let recipe = findRecipe(weekNum, course);
+    return recipe.ingredients;
+}
 /**
  * Get the title of the page recipe
  * @returns 
@@ -110,7 +144,6 @@ function getRecipeCredits(weekNum, course) {
  * @returns 
  */
 function findRecipe(weekNum, course) {
-    console.log("Params:", weekNum, course);
     // Get the week menu
     let weekMenu = weeklyRecipes[weekNum - 1];
     // Scan list of recipes for course

@@ -300,7 +300,7 @@ limitations within which the website is to be produced.
 				URL reader etc.
 				loadRecipe()
 					readURL()
-					set the menu underline attribute -setMenu()
+					set the menu underline attribute - setMenu()
 					set the course title bar 
 					set the recipe title
 					set the recipe description

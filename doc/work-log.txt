@@ -18,6 +18,8 @@ Work Due
 
     Do the javascript for the recipe page(s)
 
+    White-out the photo incidental background on the ingredients pic.
+
 
 Work Done
     03/11/22
