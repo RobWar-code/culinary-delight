@@ -184,6 +184,7 @@ body {
     width: 420px;
     height: 100px;
     margin-bottom: 10px;
+    font-size: 100%;
 }
 #comments-status {
     margin-top: 10px;
@@ -284,5 +285,21 @@ footer {
         margin: 0 auto;
         border: 2px solid #002020;
     }
-
+}
+@media screen and (max-width: 580px) {
+    #introductory-section {
+        padding-top: 30px;
+    }
+    #introduction-div {
+        position: unset;
+        margin: 0 auto;
+    }
+    #comments-section {
+        width: 90%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    #comments {
+        width: 96%;
+    }
 }
