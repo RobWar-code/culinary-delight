@@ -327,22 +327,7 @@ footer {
 #prev-step-btn:hover {
     background: #e0e040;
 }
-/* Final Picture Section */
-/*
-#final-pic-section {
-    display: flex;
-    clear: both;
-    width: 75%;
-    padding-top: 10px;
-    margin: 0 auto;
-}
-#final-pic-img {
-    width: calc(100% - 4px);
-    display: block;
-    border: 2px solid #002020;
-    border-radius: 12px;
-}
-*/
+
 /* Media Queries */
 @media screen and (max-width: 1000px) {
     /* Heading Bar */
