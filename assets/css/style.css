@@ -239,8 +239,79 @@ footer {
 }
 /* Recipe Page */
 #article-section {
+    padding-bottom: 10px;
     text-align: center;
     background: linear-gradient(#006060, #00e0e0);
+}
+
+/* Recipe Section */
+#recipe-section {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#ingredients-pic-div {
+    width: calc(35% - 15px);
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#ingredients-pic-div img {
+    width: 100%;
+}
+#ingredients-div {
+    width: calc(30% - 15px);
+    float: left;
+    margin-right: 10px;
+}
+#ingredients-div h3 {
+    font-style: italic;
+}
+#ingredients-div li {
+    margin-left: 15px;
+}
+#recipe-div {
+    width: calc(35% - 20px);
+    float: left;
+    border: 1px solid #002020;
+}
+#recipe-div img {
+    width: 100%;
+}
+#recipe-div p {
+    padding: 0 5px 0 5px;
+}
+#recipe-controls-div {
+    width: calc(100% -10px);
+    height: 70px;
+    border: 1px solid #002020;
+    background: #a0a0a0;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+}
+#slider {
+    width: 90%;
+}
+#next-step-btn {
+    margin-left: 5%;
+    font-size: 145%;
+    float: left;
+}
+#next-step-btn:hover {
+    background: #e0e040;
+}
+#controls-text {
+    font-style: italic;
+    font-size: 100%;
+    display: inline;
+}
+#prev-step-btn {
+    margin-right: 5%;
+    font-size: 145%;
+    float: right;
+}
+#prev-step-btn:hover {
+    background: #e0e040;
 }
 
 /* Media Queries */
