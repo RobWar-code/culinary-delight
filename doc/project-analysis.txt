@@ -309,7 +309,9 @@ limitations within which the website is to be produced.
 					set the ingredients picture
 					set the ingredients list - loadIngredientsList()
 					set the utensils list - loadUtensilsList()
+
 					set the recipe first image
+					set the first step text
 					set the recipe final image
 					set the slider range
 

@@ -49,6 +49,32 @@ function loadRecipe() {
     ingredientsImgElem.setAttribute("src", filePath);
     // Set the ingredients list
     setIngredientsList(CDShared.weekNum, CDShared.course);
+    // Set the utensils list
+    let gotUtensils = setUtensilsList(CDShared.weekNum, CDShared.course);
+    if (!gotUtensils) {
+        let utensilsHeadElem = document.getElementById("utensils-head");
+        utensilsHeadElem.style.display = "none";
+    }
+
+    // Set the recipe first picture
+    recipeStepImgElem = document.getElementById("recipe-step-img");
+    filePath = "assets/images/recipe-" + weekString + "-" + CDShared.course + "/step-01-512px.png";
+    recipeStepImgElem.setAttribute("src", filePath);
+
+    // Set the first recipe step text
+    setRecipeStepText(1);
+
+    // Set the final picture
+    finalImgElem = document.getElementById("final-img");
+    filePath = "assets/images/recipe-" + weekString + "-" + CDShared.course + "/summary-pic-1200px.png";
+    finalImgElem.setAttribute("src", filePath);
+
+    // Set the slider range
+    CDShared.numSteps = getNumRecipeSteps(CDShared.weekNum, CDShared.course);
+    let sliderElem = document.getElementById("slider");
+    sliderElem.value = 1;
+    sliderElem.setAttribute("min", 1);
+    sliderElem.setAttribute("max", CDShared.numSteps);
 
 }
 /**
@@ -79,6 +105,21 @@ function setMenuHighlight() {
 }
 
 /**
+ * Display the given recipe step text
+ * @param {*} stepNum 
+ */
+function setRecipeStepText(stepNum) {
+    let recipe = findRecipe(CDShared.weekNum, CDShared.course);
+    let stepArray = recipe.steps[stepNum - 1];
+    let recipeStepElem = document.getElementById("recipe-step-div");
+    let paras="";
+    for (let para of stepArray) {
+        paras += `<p class="recipe-step-text">${para}</p>`;
+    }
+    recipeStepElem.innerHTML = paras;
+}
+
+/**
  * Set the ingredients list in the display
  * @param {*} weekNum 
  * @param {*} course 
@@ -100,6 +141,37 @@ function getIngredients(weekNum, course) {
     let recipe = findRecipe(weekNum, course);
     return recipe.ingredients;
 }
+
+/**
+ * Get and display the list of utensils
+ * @param {*} weekNum 
+ * @param {*} course 
+ */
+function setUtensilsList(weekNum, course) {
+    let utensilsList = getUtensils(weekNum, course);
+    if (!utensilsList) {
+        return false;
+    }
+    let listElem = document.getElementById("utensils-list");
+    let listHTML = "";
+    for (let utensil of utensilsList) {
+        listHTML += `<li>${utensil}</li>`;
+    }
+    listElem.innerHTML = listHTML;
+    return true;
+}
+
+/**
+ * Get the list of utensils from the recipe
+ * @param {*} weekNum 
+ * @param {*} course 
+ * @returns 
+ */
+function getUtensils(weekNum, course) {
+    let recipe = findRecipe(weekNum, course);
+    return recipe.utensils;
+}
+
 /**
  * Get the title of the page recipe
  * @returns 
@@ -165,4 +237,9 @@ function findRecipe(weekNum, course) {
         }
     }
     alert("findRecipe -recipe not found matching: " + title);
+}
+
+function getNumRecipeSteps(weekNum, course) {
+    let recipe = findRecipe(weekNum, course);
+    return recipe.steps.length;
 }
