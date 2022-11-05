@@ -75,6 +75,7 @@ function loadRecipe() {
     sliderElem.value = 1;
     sliderElem.setAttribute("min", 1);
     sliderElem.setAttribute("max", CDShared.numSteps);
+    document.getElementById("numSteps-span").innerText = CDShared.numSteps;
 
 }
 /**
@@ -113,8 +114,11 @@ function setRecipeStepText(stepNum) {
     let stepArray = recipe.steps[stepNum - 1];
     let recipeStepElem = document.getElementById("recipe-step-div");
     let paras="";
+    let count = 0;
     for (let para of stepArray) {
+        if (count === 0) para = stepNum + ". " + para;
         paras += `<p class="recipe-step-text">${para}</p>`;
+        ++count;
     }
     recipeStepElem.innerHTML = paras;
 }
