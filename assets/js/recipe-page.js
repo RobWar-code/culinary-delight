@@ -9,10 +9,24 @@ const CDShared = {
 document.addEventListener("DOMContentLoaded", function () {
     // Load and display recipe data
     loadRecipe();
+
+    // User Events
+    // Next Recipe Step button
+    let nextElem = document.getElementById("next-step-btn");
+    nextElem.addEventListener("click", displayNextRecipeStep);
+
+    // Previous Recipe Step button
+    let prevElem = document.getElementById("prev-step-btn");
+    prevElem.addEventListener("click", displayPreviousRecipeStep);
+
+    // Previous Recipe Step button
+    let sliderElem = document.getElementById("slider");
+    sliderElem.addEventListener("input", displaySliderRecipeStep);
+    
 });
 
 /**
- * Load an apply the recipe data for this page
+ * Load and apply the recipe data for this page
  */
 function loadRecipe() {
     // Read the URL (week number and course)
@@ -41,11 +55,8 @@ function loadRecipe() {
     // Set the ingredients picture
     ingredientsImgElem = document.getElementById("ingredients-img");
     // Derive the image file path
-    weekString = "0" + CDShared.weekNum;
-    if (weekString.length > 2) {
-        weekString = weekString.splice(weekString.length - 2);
-    }
-    let filePath = "assets/images/recipe-" + weekString + "-" + CDShared.course + "/ingredients-512px.png";
+    let filePath = getRecipeImageFilePath(CDShared.weekNum, CDShared.course);
+    filePath += "ingredients-512px.png";
     ingredientsImgElem.setAttribute("src", filePath);
     // Set the ingredients list
     setIngredientsList(CDShared.weekNum, CDShared.course);
@@ -58,11 +69,12 @@ function loadRecipe() {
 
     // Set the recipe first picture
     recipeStepImgElem = document.getElementById("recipe-step-img");
-    filePath = "assets/images/recipe-" + weekString + "-" + CDShared.course + "/step-01-512px.png";
+    filePath = getRecipeImageFilePath(CDShared.weekNum, CDShared.course);
+    filePath += "step-01-512px.png";
     recipeStepImgElem.setAttribute("src", filePath);
 
     // Set the first recipe step text
-    setRecipeStepText(1);
+    setRecipeStepText(CDShared.weekNum, CDShared.course, 1);
 
     // Set the final picture
     finalImgElem = document.getElementById("final-img");
@@ -89,6 +101,33 @@ function readURL(){
 }
 
 /**
+ * Get the path for the recipe images
+ * @param {integer} weekNum 
+ * @param {string} course 
+ * @returns 
+ */
+function getRecipeImageFilePath(weekNum, course) {
+    weekString = "0" + weekNum;
+    if (weekString.length > 2) {
+        weekString = weekString.slice(weekString.length - 2);
+    }
+    let filePath = "assets/images/recipe-" + weekString + "-" + course + "/";
+    return filePath;
+}
+
+/**
+ * Derive the recipe image file name from the step number
+ * @param {integer} stepNum 
+ */
+function getRecipeImageFileName(stepNum) {
+    let stepString = "0" + stepNum;
+    if (stepString.length > 2) {
+        stepString = stepString.slice(stepString.length - 2);
+    }
+    let fileName = "step-" + stepString + "-512px.png";
+    return fileName;
+}
+/**
  * Set the highlight for the menu item for the current page
  */
 function setMenuHighlight() {
@@ -107,10 +146,12 @@ function setMenuHighlight() {
 
 /**
  * Display the given recipe step text
- * @param {*} stepNum 
+ * @param {integer} weekNum
+ * @param {string} course
+ * @param {integer} stepNum 
  */
-function setRecipeStepText(stepNum) {
-    let recipe = findRecipe(CDShared.weekNum, CDShared.course);
+function setRecipeStepText(weekNum, course, stepNum) {
+    let recipe = findRecipe(weekNum, course);
     let stepArray = recipe.steps[stepNum - 1];
     let recipeStepElem = document.getElementById("recipe-step-div");
     let paras="";
@@ -125,8 +166,8 @@ function setRecipeStepText(stepNum) {
 
 /**
  * Set the ingredients list in the display
- * @param {*} weekNum 
- * @param {*} course 
+ * @param {integer} weekNum 
+ * @param {string} course 
  */
 function setIngredientsList(weekNum, course) {
     let ingredientsList = getIngredients(weekNum, course);
@@ -148,8 +189,8 @@ function getIngredients(weekNum, course) {
 
 /**
  * Get and display the list of utensils
- * @param {*} weekNum 
- * @param {*} course 
+ * @param {integer} weekNum 
+ * @param {string} course 
  */
 function setUtensilsList(weekNum, course) {
     let utensilsList = getUtensils(weekNum, course);
@@ -167,9 +208,9 @@ function setUtensilsList(weekNum, course) {
 
 /**
  * Get the list of utensils from the recipe
- * @param {*} weekNum 
- * @param {*} course 
- * @returns 
+ * @param {integer} weekNum 
+ * @param {string} course 
+ * @returns array of string
  */
 function getUtensils(weekNum, course) {
     let recipe = findRecipe(weekNum, course);
@@ -178,7 +219,7 @@ function getUtensils(weekNum, course) {
 
 /**
  * Get the title of the page recipe
- * @returns 
+ * @returns string 
  */
 function getRecipeTitle() {
     let weekMenu = weeklyRecipes[CDShared.weekNum - 1];
@@ -203,8 +244,8 @@ function getRecipeDescription(weekNum, course) {
 
 /**
  * Get the credits for the recipe defined by the weekNum and course
- * @param {} weekNum 
- * @param {*} course 
+ * @param {integer} weekNum 
+ * @param {string} course 
  * @returns 
  */
 function getRecipeCredits(weekNum, course) {
@@ -215,8 +256,8 @@ function getRecipeCredits(weekNum, course) {
 
 /**
  * Find the recipe entry for the given course and week number
- * @param {*} weekNum 
- * @param {*} course 
+ * @param {integer} weekNum 
+ * @param {string} course 
  * @returns 
  */
 function findRecipe(weekNum, course) {
@@ -246,4 +287,81 @@ function findRecipe(weekNum, course) {
 function getNumRecipeSteps(weekNum, course) {
     let recipe = findRecipe(weekNum, course);
     return recipe.steps.length;
+}
+
+/**
+ * Display the next recipe step when the next button is clicked
+ * @param {object} event 
+ * @returns 
+ */
+function displayNextRecipeStep(event) {
+    // Check whether already at last step
+    if (CDShared.stepNum >= CDShared.numSteps) {
+        alert("You are on the final step already!");
+        return;
+    }
+    ++CDShared.stepNum;
+    displayRecipeStep(CDShared.weekNum, CDShared.course, CDShared.stepNum);
+}
+
+/**
+ * Display the previous recipe step when the previous button is clicked
+ * @param {object} event 
+ * @returns 
+ */
+function displayPreviousRecipeStep(event) {
+    // Check whether already at last step
+    if (CDShared.stepNum <= 1) {
+        alert("You are on the first step already!");
+        return;
+    }
+    --CDShared.stepNum;
+    displayRecipeStep(CDShared.weekNum, CDShared.course, CDShared.stepNum);
+}
+
+/**
+ * Update the recipe display based on the slider position
+ * @param {object} event 
+ * @returns 
+ */
+function displaySliderRecipeStep(event) {
+    // Get the slider value
+    let stepNum = this.value;
+    // Check whether this is already on display
+    if (stepNum === CDShared.stepNum) {
+        // A user message here would be annoying
+        return;
+    }
+    CDShared.stepNum = stepNum;
+    // Update the display
+    displayRecipeStep(CDShared.weekNum, CDShared.course, CDShared.stepNum);
+}
+
+/**
+ * Display the recipe step for the week, course abd step number.
+ * @param {integer} weekNum 
+ * @param {string} course 
+ * @param {integer} stepNum 
+ */
+function displayRecipeStep(weekNum, course, stepNum) {
+   // Display the image
+   let filePath = getRecipeImageFilePath(weekNum, course);
+   filePath += getRecipeImageFileName(stepNum);
+   document.getElementById("recipe-step-img").setAttribute("src", filePath);
+   // Display the step text
+   // Remove existing text
+   removeRecipeStepText();
+   setRecipeStepText(weekNum, course, stepNum);
+   // Update the slider
+   document.getElementById("slider").value = stepNum;
+}
+
+/**
+ * Remove all of the recipe step text
+ */
+function removeRecipeStepText() {
+    let recipeParas = document.getElementsByClassName("recipe-step-text");
+    for (let para of recipeParas) {
+        para.remove();
+    }
 }
