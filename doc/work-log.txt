@@ -1,27 +1,44 @@
 Work Due
-    Further the javascript analysis in project-analysis.txt
 
-    * Do the HTML for the main page
+    Design/Add the favicon icon for the Culinary Delight site (16 x 16)
+        (?parsley leaf simplified)
 
-    * Do the CSS for the main Page
+    Review the pass criteria for project 2 coding
+        Make any adjustments
 
-    * Do the CSS media queries/tests for main page
-        1200
-        1000 - single column
-        450
-        350
-    Use smaller images for backgrounds for intro and registration
+    Prepare the readme file for the project
+        Full size screen shots
+        AWS Media Size screen shots
 
-    Do the HTML for the recipe page(s)
+    Systems Testing (log results in README)
 
-    Do the CSS for the recipe page(s)
 
-    Do the javascript for the recipe page(s)
-
-    White-out the photo incidental background on the ingredients pic.
+    White-out the photo incidental background on the ingredients pic??
 
 
 Work Done
+    06/11/22
+        * Further the javascript analysis in project-analysis.txt
+
+        * Do the HTML for the main page
+
+        * Do the CSS for the main Page
+
+        * Do the CSS media queries/tests for main page
+            1200
+            1000 - single column
+            450
+            350
+        * Use smaller images for backgrounds for intro and registration
+
+        * Do the HTML for the recipe page(s)
+
+        * Do the CSS for the recipe page(s)
+
+        * Do the javascript for the recipe page(s)
+
+        * Do the media adjustments for the recipe page
+
     03/11/22
         * Do the javascript course for 8 days or completion
 

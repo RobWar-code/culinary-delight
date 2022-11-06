@@ -239,9 +239,9 @@ footer {
 }
 /* Recipe Page */
 #article-section {
-    padding-bottom: 10px;
     text-align: center;
     background: linear-gradient(#006060, #00e0e0);
+    padding: 0 10px 10px 10px;
 }
 
 /* Recipe Section */
@@ -390,6 +390,20 @@ footer {
         margin: 0 auto;
         border: 2px solid #002020;
     }
+    /* Recipe Page */
+    /* Split the recipe step onto a new row */
+    #ingredients-pic-div {
+        width: calc(40% - 15px);
+    }
+    #ingredients-div {
+        width: calc(60% - 15px);
+        margin-right: 0;
+    }
+    #recipe-div {
+        width: calc(100% - 2px);
+        margin-top: 10px;
+        display: block;
+    }
 }
 @media screen and (max-width: 580px) {
     #introductory-section {
@@ -406,5 +420,17 @@ footer {
     }
     #comments {
         width: 96%;
+    }
+    /* Recipe Page */
+    /* Split the ingredients list and pic into single column */
+    #ingredients-pic-div {
+        display: block;
+        width: 100%;
+        margin: 0 auto 10px auto;
+    }
+    #ingredients-div {
+        display: block;
+        width: calc(100% - 17px);
+        margin: 0 0 10px 15px;
     }
 }
