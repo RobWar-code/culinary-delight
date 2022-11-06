@@ -12,6 +12,11 @@ Work Due
 
     Systems Testing (log results in README)
 
+    If there is sufficient time add the print recipe functionality
+
+    Further Testing following print functionality
+        Do the CSS and HTML online code checks
+        Do the Javascript online code checks
 
     White-out the photo incidental background on the ingredients pic??
 
