@@ -11,6 +11,9 @@ body {
     font-weight: lighter;
     background-color: #007070;
 }
+a:hover {
+    background: white;
+}
 #container {
     max-width: 1600px;
     width: 98%;
@@ -42,6 +45,7 @@ body {
 #heading-div h1 {
     line-height: 90px;
     font-size: 200%;
+    text-shadow: 2px 2px #002020;
     color: #e0e040;
 }
 
