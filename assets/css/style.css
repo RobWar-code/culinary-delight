@@ -5,6 +5,9 @@
     border: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: Acme, sans-serif;
     font-size: 124%;
@@ -95,6 +98,7 @@ a:hover {
     left: 40px;
     top: 30px;
     background: rgba(0, 200, 200, 0.8);
+    border-radius: 16px;
     padding: 5px 5px 25px 5px;
 }
 /* Menu Article Section */
@@ -103,19 +107,20 @@ a:hover {
     width: 100%;
 }
 #menu-article-section > div {
-    width: calc(33% - 13px);
+    width: calc(33% - 12px);
 }
 #menu-article-section > div img {
     width: 100%;
     display: block;
 }
 #main-pic-div {
-    float: left;
+    display: inline-block;
     margin-right: 10px;
     margin-left: 10px;
 }
 #menu-article-div {
-    float: left;
+    display: inline-block;
+    vertical-align: top;
     margin-right: 10px;
     text-align: center;
 }
@@ -123,7 +128,7 @@ a:hover {
     color: #002020;
 }
 #dessert-pic-div {
-    float: left;
+    display: inline-block;
 }
 /* Registration Section */
 #registration-section {
@@ -378,6 +383,7 @@ footer {
     }
     #menu-article-section > div {
         width: 92%;
+        display: block;
     }
     #main-pic-div {
         float: none;

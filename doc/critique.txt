@@ -1,0 +1,18 @@
+Javascript Code
+    It would have been better to write more pseudo-code in the analysis
+    so that the function layout could have been better written and 
+    spot tested. The trade-off here is the time taken to maintain the 
+    documentation versus reduced test/debug time. An extra half day/ day
+    on the analysis would have payed-off. The current ordering of the
+    functions is erratic.
+
+    I avoided using objects for the javascript functions because this
+    was not part of the spec. at this stage, but this would generally
+    be better as it reduces the global clutter. This would have 
+    required an extra few hours of analysis.
+
+User Presentation
+    The change of recipe step text makes the display "jump", it
+    would be nice to have a transition effect for this. Estimate is
+    three days trial/coding. The downside of this is that it makes
+    the code more messy.
