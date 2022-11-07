@@ -265,7 +265,7 @@ footer {
 #ingredients-pic-div {
     display: inline-block;
     vertical-align: top;
-    width: calc(25% - 16px);
+    width: calc(26% - 10px);
     margin-left: 10px;
     /*
     margin-right: 10px;
@@ -287,7 +287,7 @@ footer {
 #ingredients-div {
     display: inline-block;
     vertical-align: top;
-    width: calc(33% - 16px);
+    width: calc(33% - 10px);
     margin-right: 10px;
     margin-left: 10px;
 }
@@ -300,7 +300,7 @@ footer {
 #recipe-div {
     display: inline-block;
     vertical-align: top;
-    width: calc(42% - 16px);
+    width: calc(39% - 10px);
     border: 1px solid #002020;
 }
 #recipe-div img {
@@ -349,6 +349,26 @@ footer {
 }
 #prev-step-btn:hover {
     background: #e0e040;
+}
+#print-div {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background: #009090;
+}
+#print-btn {
+    border: 1px solid #002020;
+    font-size: 100%;
+    padding: 5px;
+    background: #009000;
+}
+#print-btn:hover {
+    background: #e0e040;
+}
+#print-text {
+    font-size: 100%;
+    font-style: italic;
+    padding: 5px;
 }
 
 /* Media Queries */

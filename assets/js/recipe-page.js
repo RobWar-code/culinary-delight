@@ -22,6 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Previous Recipe Step button
     let sliderElem = document.getElementById("slider");
     sliderElem.addEventListener("input", displaySliderRecipeStep);
+
+    // Print Recipe Button
+    let PrintElem = document.getElementById("print-btn");
+    PrintElem.addEventListener("click", printRecipe);
     
 });
 
@@ -364,4 +368,77 @@ function removeRecipeStepText() {
     for (let para of recipeParas) {
         para.remove();
     }
+}
+
+/**
+ * Open a pop-up window to receive recipe data and to be printed by the user
+ */
+function printRecipe() {
+    // Prepare the window
+    console.log("Got Here");
+    let win = window.open("", "", "width=350px, height=450px");
+    // Prepare HTML
+    let recipeHTML = `
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+        </head>
+        <body>
+    `;
+    // Add the title 
+    let title = getRecipeTitle();
+    recipeHTML += `
+        <h2>${title}</h2>
+    `;
+    // Add in ingredients
+    let ingredients = getIngredients(CDShared.weekNum, CDShared.course);
+    recipeHTML += `
+        <h2>Ingredients</h2>
+    `;
+    for (let ingredient of ingredients) {
+        recipeHTML += `
+            <p>${ingredient}</p>
+        `;
+    }
+    // Add utensils
+    let utensils = getUtensils(CDShared.weekNum, CDShared.course);
+    if (utensils) {
+        recipeHTML += `
+            <h2>Utensils</h2>
+        `;
+        for (let utensil of utensils) {
+            recipeHTML += `
+                <p>${utensil}</p>
+            `;
+        }
+    }
+    // Add recipe steps
+    let recipeData = findRecipe(CDShared.weekNum, CDShared.course);
+    let recipeSteps = recipeData.steps;
+    recipeHTML += `
+        <h2>Recipe Steps</h2>
+    `;
+    let count = 1;
+    for (let recipeStep of recipeSteps) {
+        recipeHTML += `
+            <p>${count}. ${recipeStep[0]}</p>
+        `;
+        if (recipeStep.length > 1) {
+            for (i = 1; i < recipeStep.length; i++) {
+                recipeHTML += `
+                    <p>${recipeStep[i]}</p>
+                `; 
+            }
+        }
+        ++count;
+    }
+
+    // Finalise HTML
+    recipeHTML += `
+        </body>
+        </html>
+    `;
+    win.document.write(recipeHTML);
+    win.focus();
 }

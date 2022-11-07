@@ -1,13 +1,7 @@
 Work Due
-
-    * Design/Add the favicon icon for the Culinary Delight site (16 x 16)
-        (?parsley leaf simplified)
-
-    * Replace the dessert ingredients pic
-
-    Review the pass criteria for project 2 coding
-        Make any adjustments
-
+    
+    Add Author details etc. to html files
+    
     Prepare the readme file for the project
         Full size screen shots
         AWS Media Size screen shots
@@ -24,6 +18,19 @@ Work Due
 
 
 Work Done
+    07/11/22
+        * Add the recipe print button and functionality
+        
+        * Design/Add the favicon icon for the Culinary Delight site (16 x 16)
+            (?parsley leaf simplified)
+
+        * Replace the dessert ingredients pic
+
+        * Review the pass criteria for project 2 coding
+            Make any adjustments
+
+        * Check through the project analysis
+
     06/11/22
         * Further the javascript analysis in project-analysis.txt
 
