@@ -3,6 +3,8 @@ Work Due
     Design/Add the favicon icon for the Culinary Delight site (16 x 16)
         (?parsley leaf simplified)
 
+    Replace the dessert ingredients pic
+
     Review the pass criteria for project 2 coding
         Make any adjustments
 
