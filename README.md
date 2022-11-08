@@ -12,8 +12,12 @@ Site Images
         Top
         Middle
         Bottom
-    Recipe Page - Main Course
-    Recipe Page - Dessert
+    Recipe Main
+        Top
+        Bottom
+    Recipe Dessert
+        Top
+        Bottom
 
 ## Introduction
 The Culinary Delight Wonderful Weekly Dishes site provides weekly recipes
@@ -69,3 +73,13 @@ These are all taken at display width 1200px or near.
 ![Middle of Main Page](/doc/readme-images/main-page-middle-1200px.png "Middle of Main Page")
 #### Bottom
 ![Bottom of Main Page](/doc/readme-images/main-page-bottom-1200px.png "Bottom of Main Page")
+### Recipe Main
+#### Top
+![Top of Recipe Main Course Page](/doc/readme-images/recipe-main-top-1200px.png "Top of Recipe Main Course Page")
+#### Bottom
+![Bottom of Recipe Main Course Page](/doc/readme-images/recipe-main-bottom-1200px.png "Bottom of Recipe Main Course Page")
+### Recipe Dessert
+#### Top
+![Top of Recipe Dessert Page](/doc/readme-images/recipe-dessert-top-1200px.png "Top of Recipe Dessert Page")
+#### Bottom
+![Bottom of Recipe Dessert Page](/doc/readme-images/recipe-dessert-bottom-1200px.png "Bottom of Recipe Dessert Page")
