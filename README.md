@@ -1,23 +1,34 @@
 ![Culinary Delight Logo](/assets/images/logo.png "Culinary Delight Logo")
 # Wonderful Weekly Dishes
 ## Contents
-Introduction
-Site Features
-    Accessibility Features
-    Branding
-Technical Notes
-Development Information
-Site Images
-    Main Page
-        Top
-        Middle
-        Bottom
-    Recipe Main
-        Top
-        Bottom
-    Recipe Dessert
-        Top
-        Bottom
+Introduction<br>
+Site Features<br>
+&emsp;Accessibility Features<br>
+&emsp;Branding<br>
+Technical Notes<br>
+Development Information<br>
+Site Images<br>
+&emsp;&emsp;Main Page<br>
+&emsp;&emsp;&emsp;Top<br>
+&emsp;&emsp;&emsp;Middle<br>
+&emsp;&emsp;&emsp;Bottom<br>
+&emsp;&emsp;Recipe Main<br>
+&emsp;&emsp;&emsp;Top<br>
+&emsp;&emsp;&emsp;Bottom<br>
+&emsp;&emsp;Recipe Dessert<br>
+&emsp;&emsp;&emsp;Top<br>
+&emsp;&emsp;&emsp;Bottom<br>
+Systems Testing<br>
+&emsp;Media Adjustments<br>
+&emsp;&emsp;Main Page AWS site check
+&emsp;&emsp;Recipe Page AWS site check
+&emsp;&emsp;Main Page<br>
+&emsp;&emsp;&emsp;1600px-1<br>
+&emsp;&emsp;&emsp;1600px-2<br>
+&emsp;&emsp;&emsp;1600px-3<br>
+&emsp;&emsp;&emsp;1001px-1<br>
+&emsp;&emsp;&emsp;1001px-2<br>
+&emsp;&emsp;&emsp;1001px-3<br>
 
 ## Introduction
 The Culinary Delight Wonderful Weekly Dishes site provides weekly recipes

@@ -2,9 +2,10 @@ Work Due
     
     Prepare the readme file for the project
         Full size screen shots
-        AWS Media Size screen shots
 
     Systems Testing (log results in README)
+        Systems Testing Media Sizes
+        Responsive Design Tester screen shots
 
     White-out the photo incidental background on the ingredients pic??
 
