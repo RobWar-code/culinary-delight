@@ -103,10 +103,24 @@ These are all taken at display width 1200px or near.
 ![Menu Bar Highlights C](/doc/readme-images/menu-highlight-c-crop.png "Menu Bar Highlights C")
 
 #### Footer
+![To Top Link Highlight](/doc/readme-images/footer-totop-crop.png "To Top Link Highlight")
+
+![Social Media Link Highlight A](/doc/readme-images/footer-social-media-a-crop.png "Social Media Link HighLight A")
+
+![Social Media Link Highlight B](/doc/readme-images/footer-social-media-b-crop.png "Social Media Link HighLight B")
+
+![Social Media Link Highlight C](/doc/readme-images/footer-social-media-c-crop.png "Social Media Link HighLight C")
+
+![CSS Check Link Highlight](/doc/readme-images/footer-css-link-crop.png "CSS Check Link Highlight")
+
 #### Main Page
 ![Registration Submit Button Highlight](/doc/readme-images/main-submit-a-crop.png "Registration Submit Button Highlight")
 
 ![Comments Submit Button Highlight](/doc/readme-images/main-submit-b-crop.png "Comments Submit Button Highlight")
+
+![Credits Links Highlight A](/doc/readme-images/credits-links-a-crop.png "Credits Links Highlight A")
+
+![Credits Links Highlight B](/doc/readme-images/credits-links-b-crop.png "Credits Links Highlight B")
 
 #### Recipe Page
 ### Media Adjustments
