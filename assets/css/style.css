@@ -17,6 +17,11 @@ body {
 a:hover {
     background: white;
 }
+/*
+input[type=submit]:hover {
+    background: #e0e040;
+}
+*/
 #container {
     max-width: 1600px;
     width: 98%;
