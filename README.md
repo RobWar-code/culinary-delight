@@ -19,6 +19,10 @@ Site Images<br>
 &emsp;&emsp;&emsp;Top<br>
 &emsp;&emsp;&emsp;Bottom<br>
 Systems Testing<br>
+&emsp;Action Point and Link Accessibility Highlighting<br>
+&emsp;&emsp;Menu<br>
+&emsp;&emsp;Footer<br>
+&emsp;&emsp;Recipe Page<br>
 &emsp;Media Adjustments<br>
 &emsp;&emsp;Main Page visual site check
 &emsp;&emsp;Recipe Page visual site check
@@ -91,6 +95,17 @@ These are all taken at display width 1200px or near.
 ![Bottom of Recipe Dessert Page](/doc/readme-images/recipe-dessert-bottom-1200px.png "Bottom of Recipe Dessert Page")
 
 ## Systems Testing
+### Action Point and Link Accessibility Highlighting
+#### Menu
+![Menu Bar Highlights A](/doc/readme-images/menu-highlight-a-crop.png "Menu Bar Highlights A")
+
+![Menu Bar Highlights B](/doc/readme-images/menu-highlight-b-crop.png "Menu Bar Highlights B")
+
+![Menu Bar Highlights C](/doc/readme-images/menu-highlight-c-crop.png "Menu Bar Highlights C")
+
+#### Footer
+#### Main Page
+#### Recipe Page
 ### Media Adjustments
 #### Main Page
 ##### 1600px A
