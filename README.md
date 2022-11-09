@@ -141,46 +141,46 @@ These are all taken at display width 1200px or near.
 ![Main Page Screen Shot 350px D](/doc/readme-images/main-page-350-d-crop.png "Main Page Screen Shot 350px D")
 #### Recipe Page
 ##### 1600px A
-![Recipe Page Screen Shot 1600px A](/doc/readme-images/recipe-page-1600-a-crop.png) "Recipe Page Screen Shot 1600px A")
+![Recipe Page Screen Shot 1600px A](/doc/readme-images/recipe-page-1600-a-crop.png "Recipe Page Screen Shot 1600px A")
 ##### 1600px B
-![Recipe Page Screen Shot 1600px B](/doc/readme-images/recipe-page-1600-b-crop.png) "Recipe Page Screen Shot 1600px B")
+![Recipe Page Screen Shot 1600px B](/doc/readme-images/recipe-page-1600-b-crop.png "Recipe Page Screen Shot 1600px B")
 ##### 1001px A
-![Recipe Page Screen Shot 1001px A](/doc/readme-images/recipe-page-1001-a-crop.png) "Recipe Page Screen Shot 1001px A")
+![Recipe Page Screen Shot 1001px A](/doc/readme-images/recipe-page-1001-a-crop.png "Recipe Page Screen Shot 1001px A")
 ##### 1001px B
 Bug: Overflow On Print Button Div
 
 Fix: change width to calc(100% - 10px) to allow for padding
 
-![Recipe Page Screen Shot 1001px B](/doc/readme-images/recipe-page-1001-b-crop.png) "Recipe Page Screen Shot 1001px B")
+![Recipe Page Screen Shot 1001px B](/doc/readme-images/recipe-page-1001-b-crop.png "Recipe Page Screen Shot 1001px B")
 ##### 1000px A
-![Recipe Page Screen Shot 1000px A](/doc/readme-images/recipe-page-1000-a-crop.png) "Recipe Page Screen Shot 1000px A")
+![Recipe Page Screen Shot 1000px A](/doc/readme-images/recipe-page-1000-a-crop.png "Recipe Page Screen Shot 1000px A")
 ##### 1000px B
-![Recipe Page Screen Shot 1000px B](/doc/readme-images/recipe-page-1000-b-crop.png) "Recipe Page Screen Shot 1000px B")
+![Recipe Page Screen Shot 1000px B](/doc/readme-images/recipe-page-1000-b-crop.png "Recipe Page Screen Shot 1000px B")
 ##### 1000px C
-![Recipe Page Screen Shot 1000px C](/doc/readme-images/recipe-page-1000-c-crop.png) "Recipe Page Screen Shot 1000px C")
+![Recipe Page Screen Shot 1000px C](/doc/readme-images/recipe-page-1000-c-crop.png "Recipe Page Screen Shot 1000px C")
 ##### 581px A
-![Recipe Page Screen Shot 581px A](/doc/readme-images/recipe-page-581-a-crop.png) "Recipe Page Screen Shot 581px A")
+![Recipe Page Screen Shot 581px A](/doc/readme-images/recipe-page-581-a-crop.png "Recipe Page Screen Shot 581px A")
 ##### 581px B
-![Recipe Page Screen Shot 581px B](/doc/readme-images/recipe-page-581-b-crop.png) "Recipe Page Screen Shot 581px B")
+![Recipe Page Screen Shot 581px B](/doc/readme-images/recipe-page-581-b-crop.png "Recipe Page Screen Shot 581px B")
 ##### 581px C
-![Recipe Page Screen Shot 581px C](/doc/readme-images/recipe-page-581-c-crop.png) "Recipe Page Screen Shot 581px C")
+![Recipe Page Screen Shot 581px C](/doc/readme-images/recipe-page-581-c-crop.png "Recipe Page Screen Shot 581px C")
 ##### 580px A
-![Recipe Page Screen Shot 580px A](/doc/readme-images/recipe-page-580-a-crop.png) "Recipe Page Screen Shot 580px A")
+![Recipe Page Screen Shot 580px A](/doc/readme-images/recipe-page-580-a-crop.png "Recipe Page Screen Shot 580px A")
 ##### 580px B
-![Recipe Page Screen Shot 580px B](/doc/readme-images/recipe-page-580-b-crop.png) "Recipe Page Screen Shot 580px B")
+![Recipe Page Screen Shot 580px B](/doc/readme-images/recipe-page-580-b-crop.png "Recipe Page Screen Shot 580px B")
 ##### 580px C
-![Recipe Page Screen Shot 580px C](/doc/readme-images/recipe-page-580-c-crop.png) "Recipe Page Screen Shot 580px C")
+![Recipe Page Screen Shot 580px C](/doc/readme-images/recipe-page-580-c-crop.png "Recipe Page Screen Shot 580px C")
 ##### 580px D
-![Recipe Page Screen Shot 580px D](/doc/readme-images/recipe-page-580-d-crop.png) "Recipe Page Screen Shot 580px D")
+![Recipe Page Screen Shot 580px D](/doc/readme-images/recipe-page-580-d-crop.png "Recipe Page Screen Shot 580px D")
 ##### 350px A
-![Recipe Page Screen Shot 350px A](/doc/readme-images/recipe-page-350-a-crop.png) "Recipe Page Screen Shot 350px A")
+![Recipe Page Screen Shot 350px A](/doc/readme-images/recipe-page-350-a-crop.png "Recipe Page Screen Shot 350px A")
 ##### 350px B
-![Recipe Page Screen Shot 350px B](/doc/readme-images/recipe-page-350-b-crop.png) "Recipe Page Screen Shot 350px B")
+![Recipe Page Screen Shot 350px B](/doc/readme-images/recipe-page-350-b-crop.png "Recipe Page Screen Shot 350px B")
 ##### 350px C
-![Recipe Page Screen Shot 350px C](/doc/readme-images/recipe-page-350-c-crop.png) "Recipe Page Screen Shot 350px C")
+![Recipe Page Screen Shot 350px C](/doc/readme-images/recipe-page-350-c-crop.png "Recipe Page Screen Shot 350px C")
 ##### 350px D
 Bug: Overflow on footer w3C logo div
 
 Fix: change widths of the footer divs to 30%, 40%, 30% - check other widths OK
 
-![Recipe Page Screen Shot 350px D](/doc/readme-images/recipe-page-350-d-crop.png) "Recipe Page Screen Shot 350px D")
+![Recipe Page Screen Shot 350px D](/doc/readme-images/recipe-page-350-d-crop.png "Recipe Page Screen Shot 350px D")
