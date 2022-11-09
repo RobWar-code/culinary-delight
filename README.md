@@ -22,10 +22,9 @@ Systems Testing<br>
 &emsp;Action Point and Link Accessibility Highlighting<br>
 &emsp;&emsp;Menu<br>
 &emsp;&emsp;Footer<br>
+&emsp;&emsp;Main Page
 &emsp;&emsp;Recipe Page<br>
 &emsp;Media Adjustments<br>
-&emsp;&emsp;Main Page visual site check
-&emsp;&emsp;Recipe Page visual site check
 &emsp;&emsp;Main Page<br>
 &emsp;&emsp;Recipe Page<br>
 
@@ -105,6 +104,10 @@ These are all taken at display width 1200px or near.
 
 #### Footer
 #### Main Page
+![Registration Submit Button Highlight](/doc/readme-images/main-submit-a-crop.png "Registration Submit Button Highlight")
+
+![Comments Submit Button Highlight](/doc/readme-images/main-submit-b-crop.png "Comments Submit Button Highlight")
+
 #### Recipe Page
 ### Media Adjustments
 #### Main Page

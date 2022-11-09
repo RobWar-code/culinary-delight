@@ -20,6 +20,9 @@ a:hover {
 input[type=submit]:hover {
     background: #e0e040;
 }
+button:hover {
+    background: #e0e040;
+}
 
 #container {
     max-width: 1600px;
