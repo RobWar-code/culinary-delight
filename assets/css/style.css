@@ -220,7 +220,7 @@ footer {
     background: #007070;
 }
 .page-top-link-div {
-    width: 20%;
+    width: 30%;
     float: left;
     text-align: center;
 }
@@ -228,7 +228,7 @@ footer {
     color: black;
 }
 .social-networks-div {
-    width: 60%;
+    width: 40%;
     float: left;
     text-align: center;
 }
@@ -242,7 +242,7 @@ footer {
     margin-right: 5px;
 }
 .css-validator-div {
-    width: 20%;
+    width: 30%;
     float: left;
     text-align: center;
 }
@@ -351,7 +351,7 @@ footer {
     background: #e0e040;
 }
 #print-div {
-    width: 100%;
+    width: calc(100% - 10px);
     padding: 5px;
     text-align: center;
     background: #009090;

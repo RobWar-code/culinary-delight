@@ -139,7 +139,16 @@ These are all taken at display width 1200px or near.
 ![Main Page Screen Shot 350px C](/doc/readme-images/main-page-350-c-crop.png "Main Page Screen Shot 350px C")
 ##### 350px D
 ![Main Page Screen Shot 350px D](/doc/readme-images/main-page-350-d-crop.png "Main Page Screen Shot 350px D")
+#### Recipe Page
+##### 1001px B
+Bug: Overflow On Print Button Div
 
+Fix: change width to calc(100% - 10px) to allow for padding
+
+##### 350px D
+Bug: Overflow on footer w3C logo div
+
+Fix: change widths of the footer divs to 30%, 40%, 30% - check other widths OK
 
 
 
