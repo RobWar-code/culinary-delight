@@ -67,26 +67,38 @@ function registrationSubmitted(event) {
         alert("Registration already submitted");
         return;
     }
-    // Check whether all input fields completed
-    let inputElems = document.getElementsByTagName("input");
-    let allDone = true;
-    for (let inputElem of inputElems) {
-        if (inputElem.value == "") {
-            allDone = false;
-            break;
+    // Validate the email address
+    let emailElem = document.getElementById("email");
+    let email = emailElem.value
+    // Email validation pattern courtesy of simplilearn 
+    // https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript
+    let validEmailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+    if (!email.match(validEmailRegex)) {
+        alert("Please enter a VALID email address")
+    }
+    else {
+
+        // Check whether all input fields completed
+        let inputElems = document.getElementsByTagName("input");
+        let allDone = true;
+        for (let inputElem of inputElems) {
+            if (inputElem.value == "") {
+                allDone = false;
+                break;
+            }
         }
-    }
-    if (!allDone) {
-        alert("You have not completed all fields in the form!");
-        return;
-    }
+        if (!allDone) {
+            alert("You have not completed all fields in the form!");
+            return;
+        }
 
-    // Set the completed status
-    let status = document.getElementById("registration-status");
-    status.style.display = "inline-block";
-    status.innerText = "Registration Submitted";
+        // Set the completed status
+        let status = document.getElementById("registration-status");
+        status.style.display = "inline-block";
+        status.innerText = "Registration Submitted";
 
-    // For future use, restore the default call to the action (form.submit())
+        // For future use, restore the default call to the action (form.submit())
+    }
 }
 
 /**

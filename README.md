@@ -97,6 +97,8 @@ These are all taken at display width 1200px or near.
 ![Bottom of Recipe Dessert Page](/doc/readme-images/recipe-dessert-bottom-1200px.png "Bottom of Recipe Dessert Page")
 
 ## Systems Testing
+### User Actions and Validation
+#### Main Page - Registration Form
 ### Action Point and Link Accessibility Highlighting
 #### Menu
 ![Menu Bar Highlights A](/doc/readme-images/menu-highlight-a-crop.png "Menu Bar Highlights A")
