@@ -22,6 +22,7 @@ Systems Testing<br>
 &emsp;User Actions and Validation<br>
 &emsp;&emsp;Main Page - Registration Form<br>
 &emsp;&emsp;Main Page - Comments<br>
+&emsp;&emsp;Recipe Page - Recipe Step Controls<br>
 &emsp;Action Point and Link Accessibility Highlighting<br>
 &emsp;&emsp;Menu<br>
 &emsp;&emsp;Footer<br>
@@ -124,10 +125,26 @@ Registration Already Submitted<br>
 
 #### Main Page - Comments Area
 Comments Left Blank<br>
+![Comments Blank](/doc/readme-images/comments-blank-crop.png "Comments Blank")
 
 Comments Submitted<br>
+![Comments Submitted](/doc/readme-images/comments-submitted-crop.png "Comments Submitted")
 
 Comments Already Submitted<br>
+![Comments Already Submitted](/doc/readme-images/comments-already-submitted-crop.png "Comments Already Submitted")
+
+#### Recipe Page - Recipe Step Controls
+Next Button Valid<br>
+
+Next Button at End of List<br>
+
+Previous Button Valid<br>
+
+Previous Button at Start of List<br>
+
+Slide to Second<br>
+
+Slide to End<br>
 
 ### Action Point and Link Accessibility Highlighting
 #### Menu
