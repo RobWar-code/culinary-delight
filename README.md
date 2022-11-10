@@ -19,9 +19,9 @@ Site Images<br>
 &emsp;&emsp;&emsp;Top<br>
 &emsp;&emsp;&emsp;Bottom<br>
 Systems Testing<br>
-&emsp;User Actions and Validation
-&emsp;&emsp;Main Page - Registration Form
-&emsp;&emsp;Main Page - Comments
+&emsp;User Actions and Validation<br>
+&emsp;&emsp;Main Page - Registration Form<br>
+&emsp;&emsp;Main Page - Comments<br>
 &emsp;Action Point and Link Accessibility Highlighting<br>
 &emsp;&emsp;Menu<br>
 &emsp;&emsp;Footer<br>
@@ -99,6 +99,36 @@ These are all taken at display width 1200px or near.
 ## Systems Testing
 ### User Actions and Validation
 #### Main Page - Registration Form
+First Name Blank<br>
+![Registration First Name Blank](/doc/readme-images/registration-first-name-blank-crop.png "Registration First Name Blank")
+
+Last Name Blank<br>
+![Registration Last Name Blank](/doc/readme-images/registration-last-name-blank-crop.png "Registration Last Name Blank")
+
+Email Blank<br>
+![Registration email Blank](/doc/readme-images/registration-email-blank-crop.png "Registration email Blank")
+
+Email Invalid<br>
+This was originally omitted. Added the regular expression test in main-page.js
+
+![Registration email Invalid](/doc/readme-images/registration-email-invalid-crop.png "Registration email Invalid")
+
+Password Blank<br>
+![Registration Password Blank](/doc/readme-images/registration-password-blank-crop.png "Registration Password Blank")
+
+Registration Submitted<br>
+![Registration Submitted](/doc/readme-images/registration-submitted-crop.png "Registration Submitted")
+
+Registration Already Submitted<br>
+![Registration Already Submitted](/doc/readme-images/registration-already-submitted-crop.png "Registration Already Submitted")
+
+#### Main Page - Comments Area
+Comments Left Blank<br>
+
+Comments Submitted<br>
+
+Comments Already Submitted<br>
+
 ### Action Point and Link Accessibility Highlighting
 #### Menu
 ![Menu Bar Highlights A](/doc/readme-images/menu-highlight-a-crop.png "Menu Bar Highlights A")
