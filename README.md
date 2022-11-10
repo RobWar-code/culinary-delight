@@ -11,6 +11,7 @@
     </li>
     <li>Technical Notes</li>
     <li>Development Information</li>
+    <li>Deployment</li>
     <li>Site Images
         <ul>
         <li>Main Page
@@ -113,6 +114,10 @@ assets/js/recipe-page.js.
 ## Development Information
 Project notes are contained in the doc directory, these include the
 project analysis, skeleton designs, work flow notes etc.
+
+## Deployment
+Deployed on GitHub Pages at https://robwar-code.github.io/culinary-delight/
+from the main branch using GitHub - Settings/Pages option
 
 ## Site Images
 These are all taken at display width 1200px or near.
@@ -329,19 +334,33 @@ Firefox
 Opera
 Edge
 
-The Following tests were performed on each:
-Main Page Display 1600px
-Main Page Display 1200px
-Recipe Page Display 1600px
-Recipe Page Display 1200px
+The Following tests were performed on each:<br>
+Main Page Display 1600px<br>
+Main Page Display 1200px<br>
+Recipe Page Display 1600px<br>
+Recipe Page Display 1200px<br>
 
-Logic Tests:
-Recipe Page Next
-Recipe Page Previous
-Recipe Page Scroll
-Recipe Page Print
-Main Page Registration Submit
-Main Page Comments Submit
+Logic Tests:<br>
+Recipe Page Next<br>
+Recipe Page Previous<br>
+Recipe Page Scroll<br>
+Recipe Page Print<br>
+Main Page Registration Submit<br>
+Main Page Comments Submit<br>
+
+Browser Screen Prints
+
+Chrome<br>
+![Chrome Screenshot](/doc/readme-images/browser-chrome-1600px.png "Chrome Screenshot")
+
+Edge<br>
+![Edge Screenshot](/doc/readme-images/browser-edge-1600px.jpeg "Edge Screenshot")
+
+Firefox<br>
+![Firefox Screenshot](/doc/readme-images/browser-firefox-1600px.png "Firefox Screenshot")
+
+Opera<br>
+![Opera Screenshot](/doc/readme-images/browser-opera-1600px.png "Opera Screenshot")
 
 ## Link Integrity Checks
 Both the recipe page and main page links were tested
