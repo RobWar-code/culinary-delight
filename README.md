@@ -19,10 +19,13 @@ Site Images<br>
 &emsp;&emsp;&emsp;Top<br>
 &emsp;&emsp;&emsp;Bottom<br>
 Systems Testing<br>
+&emsp;User Actions and Validation
+&emsp;&emsp;Main Page - Registration Form
+&emsp;&emsp;Main Page - Comments
 &emsp;Action Point and Link Accessibility Highlighting<br>
 &emsp;&emsp;Menu<br>
 &emsp;&emsp;Footer<br>
-&emsp;&emsp;Main Page
+&emsp;&emsp;Main Page<br>
 &emsp;&emsp;Recipe Page<br>
 &emsp;Media Adjustments<br>
 &emsp;&emsp;Main Page<br>
@@ -123,6 +126,12 @@ These are all taken at display width 1200px or near.
 ![Credits Links Highlight B](/doc/readme-images/credits-links-b-crop.png "Credits Links Highlight B")
 
 #### Recipe Page
+![Recipe Next Step Button Highlight](/doc/readme-images/recipe-next-step-crop.png "Recipe Next Step Button Highlight")
+
+![Recipe Previous Step Button Highlight](/doc/readme-images/recipe-prev-step-crop.png "Recipe Prev Step Button Highlight")
+
+![Recipe Print Button Highlight](/doc/readme-images/recipe-print-crop.png "Recipe Print Button Highlight")
+
 ### Media Adjustments
 #### Main Page
 ##### 1600px A
