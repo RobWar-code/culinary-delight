@@ -1,36 +1,73 @@
 ![Culinary Delight Logo](/assets/images/logo.png "Culinary Delight Logo")
 # Wonderful Weekly Dishes
 ## Contents
-Introduction<br>
-Site Features<br>
-&emsp;Accessibility Features<br>
-&emsp;Branding<br>
-Technical Notes<br>
-Development Information<br>
-Site Images<br>
-&emsp;&emsp;Main Page<br>
-&emsp;&emsp;&emsp;Top<br>
-&emsp;&emsp;&emsp;Middle<br>
-&emsp;&emsp;&emsp;Bottom<br>
-&emsp;&emsp;Recipe Main<br>
-&emsp;&emsp;&emsp;Top<br>
-&emsp;&emsp;&emsp;Bottom<br>
-&emsp;&emsp;Recipe Dessert<br>
-&emsp;&emsp;&emsp;Top<br>
-&emsp;&emsp;&emsp;Bottom<br>
-Systems Testing<br>
-&emsp;User Actions and Validation<br>
-&emsp;&emsp;Main Page - Registration Form<br>
-&emsp;&emsp;Main Page - Comments<br>
-&emsp;&emsp;Recipe Page - Recipe Step Controls<br>
-&emsp;Action Point and Link Accessibility Highlighting<br>
-&emsp;&emsp;Menu<br>
-&emsp;&emsp;Footer<br>
-&emsp;&emsp;Main Page<br>
-&emsp;&emsp;Recipe Page<br>
+<ul style="list-style: none">
+    <li>Introduction</li>
+    <li>Site Features
+        <ul>
+        <li>Accessibility Features</li>
+        <li>Branding</li>
+        </ul>
+    </li>
+    <li>Technical Notes</li>
+    <li>Development Information</li>
+    <li>Site Images
+        <ul>
+        <li>Main Page
+            <ul>
+            <li>Top</li>
+            <li>Middle</li>
+            <li>Bottom</li>
+            </ul>
+        </li>
+        <li>Recipe Main Course
+            <ul>
+            <li>Top</li>
+            <li>Bottom</li>
+            </ul>
+        </li>
+        <li>Recipe Dessert
+            <ul>
+            <li>Top</li>
+            <li>Bottom</li>
+            </ul>
+        </li>
+    </ul>
+    </li>
+    <li>Systems Testing
+        <ul>
+        <li>User Actions and Validation
+            <ul>
+            <li>Main Page - Registration Form</li>
+            <li>Main Page - Comments</li>
+            <li>Recipe Page - Recipe Step Controls</li>
+            <li>Recipe Page - Recipe Print Button</li>
+            </ul>
+        </li>
+        <li>Action Point and Link Accessibility Highlighting
+            <ul>
+            <li>Menu</li>
+            <li>Footer</li>
+            <li>Main Page</li>
+            <li>Recipe Page</li>
+            </ul>
+        </li>
+        <li>Media Adjustments
+            <ul>
+            <li>Main Page</li>
+            <li>Recipe Page</li>
+            </ul>
+        </li>
+        <li>Browser Tests</li>
+        <li>Link Integrity Checks</li>
+        </ul>
+    </li>
+</ul>
+<br>
 &emsp;Media Adjustments<br>
 &emsp;&emsp;Main Page<br>
 &emsp;&emsp;Recipe Page<br>
+&emsp;Browser Tests<br>
 
 ## Introduction
 The Culinary Delight Wonderful Weekly Dishes site provides weekly recipes
@@ -86,7 +123,7 @@ These are all taken at display width 1200px or near.
 ![Middle of Main Page](/doc/readme-images/main-page-middle-1200px.png "Middle of Main Page")
 #### Bottom
 ![Bottom of Main Page](/doc/readme-images/main-page-bottom-1200px.png "Bottom of Main Page")
-### Recipe Main
+### Recipe Main Course
 #### Top
 ![Top of Recipe Main Course Page](/doc/readme-images/recipe-main-top-1200px.png "Top of Recipe Main Course Page")
 #### Bottom
@@ -151,6 +188,9 @@ Slide to Second<br>
 
 Slide to End<br>
 ![Recipe Slider to End Step](/doc/readme-images/recipe-slider-to-end-crop.png "Recipe Slider to End Step")
+
+#### Recipe Page - Recipe Print Button
+![Recipe Print Page Output Window](/doc/readme-images/recipe-print-display.png "Recipe Print Page Output Window")
 
 ### Action Point and Link Accessibility Highlighting
 #### Menu
@@ -280,3 +320,29 @@ Bug: Overflow on footer w3C logo div
 Fix: change widths of the footer divs to 30%, 40%, 30% - check other widths OK
 
 ![Recipe Page Screen Shot 350px D](/doc/readme-images/recipe-page-350-d-crop.png "Recipe Page Screen Shot 350px D")
+
+## Browser Tests
+
+The browsers tested are:
+Chrome
+Firefox
+Opera
+Edge
+
+The Following tests were performed on each:
+Main Page Display 1600px
+Main Page Display 1200px
+Recipe Page Display 1600px
+Recipe Page Display 1200px
+
+Logic Tests:
+Recipe Page Next
+Recipe Page Previous
+Recipe Page Scroll
+Recipe Page Print
+Main Page Registration Submit
+Main Page Comments Submit
+
+## Link Integrity Checks
+Both the recipe page and main page links were tested
+    Bug: Omission of open on new tab for credits link - fixed
