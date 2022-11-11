@@ -16,6 +16,7 @@
         <ul>
         <li>Main Page
             <ul>
+            <li>Media Size Overview</li>
             <li>Top</li>
             <li>Middle</li>
             <li>Bottom</li>
@@ -122,6 +123,9 @@ from the main branch using GitHub - Settings/Pages option
 ## Site Images
 These are all taken at display width 1200px or near.
 ### Main Page
+#### Media Size Overview
+![amiresponsive Media Size Overview](/doc/readme-images/cd-amiresponsive.png "amiresponsive Media Size Overview")
+
 #### Top
 ![Top of Main Page](/doc/readme-images/main-page-top-1200px.png "Top of Main Page")
 #### Middle
