@@ -12,6 +12,8 @@
     <li>Technical Notes</li>
     <li>Development Information</li>
     <li>Deployment</li>
+    <li>Site Maintenance</li>
+    <li>Further Developments for Live Site</li>
     <li>Site Images
         <ul>
         <li>Main Page
@@ -121,6 +123,15 @@ project analysis, skeleton designs, work flow notes etc.
 ## Deployment
 Deployed on GitHub Pages at https://robwar-code.github.io/culinary-delight/
 from the main branch using GitHub - Settings/Pages option
+
+## Site Maintenance
+Recipes can be added to the recipe data in recipe-data.js
+The week number references can be updated in index.html
+
+## Further Developments for Live Site
+It is suggested that the recipe data should be moved to the server and
+the pages built by php or python, rather than on the client, this would
+enhance performance.
 
 ## Site Images
 These are all taken at display width 1200px or near.
