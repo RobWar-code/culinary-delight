@@ -85,18 +85,27 @@ Note that currently only one meal is included for demonstration purposes.
 
 ## Site Features
 The main page provides an overview of the site and an introduction to the
-dishes of the week, along with registration form, for email updates, a
+dishes of the week, along with a registration form, for email updates, a
 pad for reader comments, contact details and copyright credits.
 
 The recipe page provides the user with an introduction to the dish, credits and 
-an easy to use step-through images and text for each stage of the meal 
-preparation and a list of ingredients and the utensils
+an easy to use step-through using button or slider for images and text 
+for each stage of the meal preparation and a list of ingredients and the utensils
 required for the preparation. The dessert and main course are accessible
 via the menu bar at the top of each page. In addition, the complete recipe
-can be printed using the Print Recipe button on the recipe pages.
+can be printed using the Print button on the recipe pages.
 
 Images of the completed dishes are also provided, to whet the apetite of the
 reader and to provide a view of the aim of the procedures.
+
+### Main Page - Registration Form
+![Main Page Registration Form](/doc/readme-images/registration-form-crop.png "Main Page Registration Form")
+
+### Main Page - Comments Field
+![Main Page Comments Field](/doc/readme-images/comments-field-crop.png "Main Page Comments Field")
+
+### Recipe Page - Recipe Step Controls
+![Recipe Page Step Controls Panel](/doc/readme-images/recipe-step-controls-crop.png "Recipe Page Step Controls Panel")
 
 ### Accessibility Features
 All fonts are in reasonable contrast to backgrounds and are of an 
