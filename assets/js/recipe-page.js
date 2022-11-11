@@ -4,7 +4,7 @@ const CDShared = {
     course: "",
     numSteps: 0,
     stepNum: 1
-}
+};
 
 document.addEventListener("DOMContentLoaded", function () {
     // Load and display recipe data
@@ -57,7 +57,7 @@ function loadRecipe() {
 
     // Recipe Details Section
     // Set the ingredients picture
-    ingredientsImgElem = document.getElementById("ingredients-img");
+    let ingredientsImgElem = document.getElementById("ingredients-img");
     // Derive the image file path
     let filePath = getRecipeImageFilePath(CDShared.weekNum, CDShared.course);
     filePath += "ingredients-512px.png";
@@ -72,7 +72,7 @@ function loadRecipe() {
     }
 
     // Set the recipe first picture
-    recipeStepImgElem = document.getElementById("recipe-step-img");
+    let recipeStepImgElem = document.getElementById("recipe-step-img");
     filePath = getRecipeImageFilePath(CDShared.weekNum, CDShared.course);
     filePath += "step-01-512px.png";
     recipeStepImgElem.setAttribute("src", filePath);
@@ -81,7 +81,11 @@ function loadRecipe() {
     setRecipeStepText(CDShared.weekNum, CDShared.course, 1);
 
     // Set the final picture
-    finalImgElem = document.getElementById("final-img");
+    let finalImgElem = document.getElementById("final-img");
+    let weekString = "0" + CDShared.weekNum;
+    if (weekString.length > 2) {
+        weekString = weekString.slice(weekString.length - 2);
+    }
     filePath = "assets/images/recipe-" + weekString + "-" + CDShared.course + "/summary-pic-1200px.png";
     finalImgElem.setAttribute("src", filePath);
 
@@ -92,7 +96,6 @@ function loadRecipe() {
     sliderElem.setAttribute("min", 1);
     sliderElem.setAttribute("max", CDShared.numSteps);
     document.getElementById("numSteps-span").innerText = CDShared.numSteps;
-
 }
 /**
  * Read the variables from the url and pass to global object
@@ -111,7 +114,7 @@ function readURL(){
  * @returns 
  */
 function getRecipeImageFilePath(weekNum, course) {
-    weekString = "0" + weekNum;
+    let weekString = "0" + weekNum;
     if (weekString.length > 2) {
         weekString = weekString.slice(weekString.length - 2);
     }
@@ -233,7 +236,7 @@ function getRecipeTitle() {
             return course.title;
         }
     }
-    alert("getRecipeTitle - course not found")
+    alert("getRecipeTitle - course not found");
     return "";
 }
 
@@ -242,7 +245,7 @@ function getRecipeTitle() {
  */
 function getRecipeDescription(weekNum, course) {
     // Find the recipe for the page
-    recipe = findRecipe(weekNum, course);
+    let recipe = findRecipe(weekNum, course);
     return recipe.description;
 }
 
@@ -425,7 +428,7 @@ function printRecipe() {
             <p>${count}. ${recipeStep[0]}</p>
         `;
         if (recipeStep.length > 1) {
-            for (i = 1; i < recipeStep.length; i++) {
+            for (let i = 1; i < recipeStep.length; i++) {
                 recipeHTML += `
                     <p>${recipeStep[i]}</p>
                 `; 

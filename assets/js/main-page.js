@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /**
  * Display the menu article for the given week number
- * @param {*} weekNum 
+ * @param {integer} weekNum 
  */
 function displayMenuArticle(weekNum) {
     let article = getMenuArticle(weekNum);
@@ -36,7 +36,7 @@ function displayMenuArticle(weekNum) {
 
 /**
  * Get the recipe article for the given week number.
- * @param {*} weekNum 
+ * @param {integer} weekNum 
  */
 function getMenuArticle(weekNum) {
     let found = false;
@@ -69,12 +69,12 @@ function registrationSubmitted(event) {
     }
     // Validate the email address
     let emailElem = document.getElementById("email");
-    let email = emailElem.value
+    let email = emailElem.value;
     // Email validation pattern courtesy of simplilearn 
     // https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript
-    let validEmailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+    let validEmailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (!email.match(validEmailRegex)) {
-        alert("Please enter a VALID email address")
+        alert("Please enter a VALID email address");
     }
     else {
 
@@ -104,7 +104,7 @@ function registrationSubmitted(event) {
 /**
  * When the comments are submitted, check whether they are blank, otherwise
  * set the status to submitted.
- * @param {} event 
+ * @param {object} event 
  */
 function commentsSubmitted(event) {
     // Check whether comments already submitted

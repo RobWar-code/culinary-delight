@@ -4,10 +4,10 @@ Requirements CheckList
 
 LO1 	* Design an interactive Front-End web application using HTML and CSS and JavaScript based 
         on the principles of user experience design, accessibility and responsivity
-LO2 	Test a front-end web application through the * development, * implementation and deployment stages
-LO3 	Deploy a Front-End web application to a Cloud platform
-LO4 	Maximise future maintainability through documentation, code structure and organisation
-LO5 	Demonstrate and document the development process through a version control system such as GitHub
+LO2 	* Test a front-end web application through the * development, * implementation and * deployment stages
+LO3 	* Deploy a Front-End web application to a Cloud platform
+LO4 	* Maximise future maintainability through documentation, code structure and organisation
+LO5 	* Demonstrate and document the development process through a version control system such as GitHub
 LO6 	* Implement Front-End interactivity, using * core JavaScript, JavaScript libraries or frameworks
 All Pass criteria must be achieved for a pass to be awarded.
 
@@ -31,8 +31,8 @@ LO1 Design an interactive Front-End web application using HTML and CSS and JavaS
 
 LO2 Test a front-end web application through the development, implementation and deployment stages
 2.1 	Write JavaScript code that passes through a linter (e.g. Jshint) with no significant issues.
-2.2 	Write custom HTML code that passes through the official W3C validator with no issues.
-2.3 	Write custom CSS code that passes through the official (Jigsaw) validator with no issues
+2.2 	* Write custom HTML code that passes through the official W3C validator with no issues.
+2.3 	* Write custom CSS code that passes through the official (Jigsaw) validator with no issues
 2.4 	* Code all external links to open in a separate tab when clicked
 2.5 	* Use CSS media queries across the application to ensure the layout changes 
         appropriately and maintains the page's structural integrity across device screen sizes.
