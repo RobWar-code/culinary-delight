@@ -62,6 +62,7 @@
         </li>
         <li>Browser Tests</li>
         <li>Link Integrity Checks</li>
+        <li>Code Checks</li>
         </ul>
     </li>
 </ul>
@@ -369,3 +370,41 @@ Opera<br>
 ## Link Integrity Checks
 Both the recipe page and main page links were tested
     Bug: Omission of open on new tab for credits link - fixed
+
+## Code Checks
+Javascript is written to ES6 compliance.
+
+Note that javascript undeclared variables are in the file
+recipe-data.js
+
+Bugs: 
+
+Sections without heading elements in html - fixed
+
+Images without src attribute - fixed
+
+Missing "let" in some declarations - fixed
+
+HTML - Main Page
+
+![W3C Check HTML Main Page](/doc/readme-images/cd-main-page-html.png "W3C Check HTML Main Page")
+
+HTML - Recipe Page
+
+![W3C Check HTML Recipe Page](/doc/readme-images/cd-recipe-html.png "W3C Check HTML Recipe Page")
+
+CSS
+
+![W3C Check CSS](/doc/readme-images/cd-css-check.png "W3C Check CSS")
+
+Javascript - Main Page
+
+![JShint Check Main Page JS](/doc/readme-images/cd-js-check-main-page.png "JShint Check Main Page JS")
+
+Javascript - Recipe Page
+
+![JShint Check Recipe Page JS](/doc/readme-images/cd-js-check-recipe.png "JShint Check Recipe Page JS")
+
+Javascript - Data Objects File
+
+![JShint Check Data JS](/doc/readme-images/cd-js-check-data.png "JShint Check Data JS")

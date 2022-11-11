@@ -1,3 +1,8 @@
+/*
+    Culinary Delight - Recipe Page Loader and Event Handler
+    Dependencies:
+        recipe-data.js
+*/
 // Globals
 const CDShared = {
     weekNum: 0,
@@ -257,7 +262,7 @@ function getRecipeDescription(weekNum, course) {
  */
 function getRecipeCredits(weekNum, course) {
     // Find the recipe for the page
-    recipe = findRecipe(weekNum, course);
+    let recipe = findRecipe(weekNum, course);
     return recipe.credits;
 }
 
