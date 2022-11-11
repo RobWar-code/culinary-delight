@@ -69,11 +69,6 @@
         </ul>
     </li>
 </ul>
-<br>
-&emsp;Media Adjustments<br>
-&emsp;&emsp;Main Page<br>
-&emsp;&emsp;Recipe Page<br>
-&emsp;Browser Tests<br>
 
 ## Introduction
 The Culinary Delight Wonderful Weekly Dishes site provides weekly recipes
