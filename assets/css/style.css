@@ -83,6 +83,7 @@ button:hover {
     background: white;
 }
 #menu-div li a {
+    color: black;
     text-decoration: none;
     padding-right: 5px;
     padding-left: 5px;
