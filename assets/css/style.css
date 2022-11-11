@@ -14,6 +14,9 @@ body {
     font-weight: lighter;
     background-color: #007070;
 }
+a {
+    color: orangered;
+}
 a:hover {
     background: white;
 }
