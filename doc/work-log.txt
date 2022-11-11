@@ -1,16 +1,16 @@
 Work Due
     
-    Prepare the readme file for the project
-        Full size screen shots
-
-    Systems Testing (log results in README)
-        Systems Testing Media Sizes
-        Responsive Design Tester screen shots
-
-    White-out the photo incidental background on the ingredients pic??
 
 
 Work Done
+    11/11/22
+        * Prepare the readme file for the project
+            * Full size screen shots
+
+        * Systems Testing (log results in README)
+            * Systems Testing Media Sizes
+            * Responsive Design Tester screen shots
+
     07/11/22
         * Add the recipe print button and functionality
         

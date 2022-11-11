@@ -149,8 +149,8 @@ limitations within which the website is to be produced.
 	Complete JS Studies			Fri 11/11/22	03/11/22
 	Complete Coding				Mon	21/11/22	07/11/22
 	Project Start Review		Tue 22/11/22
-	Complete Debugging/Testing	Sun 27/11/22
-	README Notes				Thu	01/12/22
+	Complete Debugging/Testing	Sun 27/11/22	11/11/22
+	README Notes				Thu	01/12/22	11/11/22
 	Mid-Project Review			Fri 02/12/22
 	Margin
 	End-Project Review			Thu	08/12/22
