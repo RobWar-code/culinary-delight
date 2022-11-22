@@ -1,5 +1,48 @@
 Work Due
     
+    Work Arising from Review 22/11/22
+
+        CSS/HTML:
+
+           * Yellow instead of red and orange for user information text
+
+            Use .webp images rather than .png images for large images
+
+            Replace the CSS code-check link
+
+            * Need additional Comments in CSS (ie: Globals)
+
+        JavaScript:
+
+            Use modal windows rather than alerts for user messages
+
+            Remove the console.log in javascript
+
+            Missing a function comment on one of the js functions
+
+        General:
+            Remove surplus image files
+
+        README:
+            Denote the deployment as Local deployment
+
+            Add in details for further adding further recipes etc.
+
+            Move the systems test to their own .md file and reference
+            from the README
+
+            Remove contents readme - this facility is already provided on the md
+            application
+
+            Replace <br> by blank lines in .md
+
+            Add tools used in project section to README
+
+            Add explanation of colour scheme etc to README
+
+            Credit all images to the Author
+
+ 
 
 
 Work Done
