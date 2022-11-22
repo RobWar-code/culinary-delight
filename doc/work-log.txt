@@ -4,7 +4,7 @@ Work Due
 
         CSS/HTML:
 
-           * Yellow instead of red and orange for user information text
+           * Dark bronze instead of red and orange for user information text
 
            * Use .webp images rather than .png images for large images
 
