@@ -132,13 +132,13 @@ Next Button Valid<br>
 ![Recipe Next Step Click Valid](/doc/readme-images/recipe-next-step-valid-crop.png "Recipe Next Step Click Valid")
 
 Next Button at End of List<br>
-![Recipe Next Step Click at List End](/doc/readme-images/recipe-next-step-at-end-crop.png "Recipe Next Step Click At End")
+![Recipe Next Step Click at List End](/doc/readme-images/recipe-step-already-at-end-crop.png "Recipe Next Step Click At End")
 
 Previous Button Valid<br>
 ![Recipe Previous Step Click Valid](/doc/readme-images/recipe-prev-step-valid-crop.png "Recipe Previous Step Click Valid")
 
 Previous Button at Start of List<br>
-![Recipe Previous Step Click at List Start](/doc/readme-images/recipe-prev-step-at-start-crop.png "Recipe Previous Step Click at List Start")
+![Recipe Previous Step Click at List Start](/doc/readme-images/recipe-step-already-at-start-crop.png "Recipe Previous Step Click at List Start")
 
 Slide to Second<br>
 ![Recipe Slider to Second Step](/doc/readme-images/recipe-slider-second-step-crop.png "Recipe Slider to Second Step")
