@@ -1,4 +1,4 @@
-/* jshint esversion: 11 */
+/* jshint esversion: es11 */
 /*
     Functions for activating and closing the modal pop-up
 */
@@ -9,19 +9,19 @@
  */
  function modalMessage (message) {
     // Open the modal element
-    modalElem = document.getElementById("modal-item");
+    let modalElem = document.getElementById("modal-item");
     modalElem.classList.add("open");
     // Insert the message
-    messageElem = document.getElementById("modal-message");
+    let messageElem = document.getElementById("modal-message");
     messageElem.innerText = message;
     // Set the focus on the close button
-    closeElem = document.getElementById("modal-close").focus()
+    document.getElementById("modal-close").focus();
 }
 
 /**
  * Close the modal pop-up element
  */
 function closeModal () {
-    modalElem = document.getElementById("modal-item");
+    let modalElem = document.getElementById("modal-item");
     modalElem.classList.remove("open");
 }

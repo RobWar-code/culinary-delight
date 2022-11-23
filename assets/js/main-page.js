@@ -1,4 +1,4 @@
-/* jshint esversion: 11 */
+/* jshint esversion: es11 */
 /* Culinary Delight - Main Page Events and Functions */
 /* Dependencies:
     recipe-data.js
