@@ -13,6 +13,8 @@
     // Insert the message
     messageElem = document.getElementById("modal-message");
     messageElem.innerText = message;
+    // Set the focus on the close button
+    closeElem = document.getElementById("modal-close").focus()
 }
 
 /**

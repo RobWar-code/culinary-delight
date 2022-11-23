@@ -15,6 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Load and display recipe data
     loadRecipe();
 
+    // Modal pop-up close button
+    document.getElementById("modal-close").addEventListener("click", closeModal);
+
     // User Events
     // Next Recipe Step button
     let nextElem = document.getElementById("next-step-btn");
@@ -309,7 +312,7 @@ function getNumRecipeSteps(weekNum, course) {
 function displayNextRecipeStep(event) {
     // Check whether already at last step
     if (CDShared.stepNum >= CDShared.numSteps) {
-        alert("You are on the final step already!");
+        modalMessage("You are on the final step already!");
         return;
     }
     ++CDShared.stepNum;
@@ -324,7 +327,7 @@ function displayNextRecipeStep(event) {
 function displayPreviousRecipeStep(event) {
     // Check whether already at last step
     if (CDShared.stepNum <= 1) {
-        alert("You are on the first step already!");
+        modalMessage("You are on the first step already!");
         return;
     }
     --CDShared.stepNum;
