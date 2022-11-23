@@ -273,6 +273,10 @@ Javascript - Recipe Page
 
 ![JShint Check Recipe Page JS](/doc/readme-images/cd-js-check-recipe.png "JShint Check Recipe Page JS")
 
+Javascript - Modal Functions File
+
+![JShint Check Modal Functions JS](/doc/readme-images/cd-js-check-modal.png "JShint Check Modal Functions JS")
+
 Javascript - Data Objects File
 
 ![JShint Check Data JS](/doc/readme-images/cd-js-check-data.png "JShint Check Data JS")
