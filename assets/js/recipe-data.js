@@ -22,25 +22,6 @@ const weeklyRecipes = [
 ];
 
 // Recipes
-/* Recipe Template
-    {
-        title: "", // String the name of the dish
-        course: "main", // String, "main", "dessert" or "starter"
-        description: "", // String, 1 to three sentences describing the meal
-        credits: "", // String, where the recipe came from, "" if not applicable
-        ingredients: [
-            "", // String, ingredient item
-        ],
-        utensils: [
-            "", // String, utensil item
-        ],
-        steps: [
-            [
-                "", // String one or more paragraphs for recipe step
-            ]
-        ]
-    }
-*/
 const recipes = [
     {
         title: "Special Cottage Pie",

@@ -16,7 +16,7 @@ Work Due
         JavaScript:
 
             * Use modal elements rather than alerts for user messages
-                Redo relevant systems tests and screen shots
+                * Redo relevant systems tests and screen shots
 
             * Remove the console.log in javascript
 
@@ -27,26 +27,26 @@ Work Due
             Re-run the linter and checkers
 
         General:
-            Remove surplus image files
+            * Remove surplus image files
 
         README:
-            Denote the deployment as Local deployment
+            * Denote the deployment as Local deployment
 
-            Add in details for further adding further recipes etc.
+            * Add in details for further adding further recipes etc.
 
-            Move the systems test to their own .md file and reference
+            * Move the systems test to their own .md file and reference
             from the README
 
-            Remove contents readme - this facility is already provided on the md
+            * Remove contents readme - this facility is already provided on the md
             application
 
-            Replace <br> by blank lines in .md
+            * Replace <br> by blank lines in .md
 
-            Add tools used in project section to README
+            * Add tools used in project section to README
 
-            Add explanation of colour scheme etc to README
+            * Add explanation of colour scheme etc to README
 
-            Credit all images to the Author
+            * Credit all images to the Author
 
  
 
