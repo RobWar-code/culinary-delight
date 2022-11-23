@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 /*
     Culinary Delight - Recipe Page Loader and Event Handler
     Dependencies:

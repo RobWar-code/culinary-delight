@@ -155,46 +155,65 @@ These are all taken at display width 1200px or near.
 
 ## Systems Testing
 
-[!Systems Testing File](/SYSTEMS-TESTS.md)
+Click Here to see [Systems Testing File](/SYSTEMS-TESTS.md)
 
 ## Browser Tests
 
 The browsers tested are:
+
 Chrome
+
 Firefox
+
 Opera
+
 Edge
 
-The Following tests were performed on each:<br>
-Main Page Display 1600px<br>
-Main Page Display 1200px<br>
-Recipe Page Display 1600px<br>
-Recipe Page Display 1200px<br>
+The Following tests were performed on each:
 
-Logic Tests:<br>
-Recipe Page Next<br>
-Recipe Page Previous<br>
-Recipe Page Scroll<br>
-Recipe Page Print<br>
-Main Page Registration Submit<br>
-Main Page Comments Submit<br>
+Main Page Display 1600px
+
+Main Page Display 1200px
+
+Recipe Page Display 1600px
+
+Recipe Page Display 1200px
+
+Logic Tests:
+
+Recipe Page Next
+
+Recipe Page Previous
+
+Recipe Page Scroll
+
+Recipe Page Print
+
+Main Page Registration Submit
+
+Main Page Comments Submit
 
 Browser Screen Prints
 
-Chrome<br>
+Chrome
+
 ![Chrome Screenshot](/doc/readme-images/browser-chrome-1600px.png "Chrome Screenshot")
 
-Edge<br>
+Edge
+
 ![Edge Screenshot](/doc/readme-images/browser-edge-1600px.jpeg "Edge Screenshot")
 
-Firefox<br>
+Firefox
+
 ![Firefox Screenshot](/doc/readme-images/browser-firefox-1600px.png "Firefox Screenshot")
 
-Opera<br>
+Opera
+
 ![Opera Screenshot](/doc/readme-images/browser-opera-1600px.png "Opera Screenshot")
 
 ## Link Integrity Checks
 Both the recipe page and main page links were tested
+
     Bug: Omission of open on new tab for credits link - fixed
 
 ## Code Checks

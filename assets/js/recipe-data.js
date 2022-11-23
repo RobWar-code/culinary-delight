@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 // Author: Robin Warner
 // Recipe Data object for Culinary Delight
 const weeklyRecipes = [

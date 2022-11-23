@@ -22,6 +22,8 @@ Work Due
 
             * Missing a function comment on one of the js functions
 
+            * Add /* jshint esversion: 11 */ to top line of each js file
+
         Systems Tests:
         
             Re-run the linter and checkers
@@ -32,9 +34,9 @@ Work Due
         README:
             * Denote the deployment as Local deployment
 
-            * Add in details for further adding further recipes etc.
+            * Add in details for adding further recipes etc.
 
-            * Move the systems test to their own .md file and reference
+            * Move the systems tests to their own .md file and reference
             from the README
 
             * Remove contents readme - this facility is already provided on the md
