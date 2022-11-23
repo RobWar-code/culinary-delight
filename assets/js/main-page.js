@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let weekNum = 1;
     displayMenuArticle(weekNum);
 
+    // Modal pop-up close button
+    document.getElementById("modal-close").addEventListener("click", closeModal);
+
     // User registration event (submit)
     document.getElementById("submit-registration").addEventListener("click", registrationSubmitted);
 
@@ -116,7 +119,7 @@ function commentsSubmitted(event) {
     // Check whether the comment is ""
     let commentElem = document.getElementById("comments");
     if (commentElem.value == "") {
-        alert("You have not entered any comments");
+        modalMessage("You have not entered any comments");
         return;
     }
     // Update the status
@@ -124,4 +127,25 @@ function commentsSubmitted(event) {
     statusElem.innerText = "Comments Submitted";
 
     // In a live setting a call to the relevant server function would occur here
+}
+
+/**
+ * Display a message in the modal pop-up
+ * @param {string} message 
+ */
+function modalMessage (message) {
+    // Open the modal element
+    modalElem = document.getElementById("modal-item");
+    modalElem.classList.add("open");
+    // Insert the message
+    messageElem = document.getElementById("modal-message");
+    messageElem.innerText = message;
+}
+
+/**
+ * Close the modal pop-up element
+ */
+function closeModal () {
+    modalElem = document.getElementById("modal-item");
+    modalElem.classList.remove("open");
 }

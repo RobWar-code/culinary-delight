@@ -16,10 +16,15 @@ Work Due
         JavaScript:
 
             Use modal windows rather than alerts for user messages
+                Redo relevant systems tests and screen shots
 
             Remove the console.log in javascript
 
             Missing a function comment on one of the js functions
+
+        Systems Tests:
+        
+            Re-run the linter and checkers
 
         General:
             Remove surplus image files
