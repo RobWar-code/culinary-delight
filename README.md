@@ -1,74 +1,5 @@
 ![Culinary Delight Logo](/assets/images/logo.png "Culinary Delight Logo")
 # Wonderful Weekly Dishes
-## Contents
-<ul style="list-style: none">
-    <li>Introduction</li>
-    <li>Site Features
-        <ul>
-        <li>Accessibility Features</li>
-        <li>Branding</li>
-        </ul>
-    </li>
-    <li>Technical Notes</li>
-    <li>Development Information</li>
-    <li>Deployment</li>
-    <li>Site Maintenance</li>
-    <li>Further Developments for Live Site</li>
-    <li>Site Images
-        <ul>
-        <li>Main Page
-            <ul>
-            <li>Media Size Overview</li>
-            <li>Top</li>
-            <li>Middle</li>
-            <li>Bottom</li>
-            </ul>
-        </li>
-        <li>Recipe Main Course
-            <ul>
-            <li>Top</li>
-            <li>Bottom</li>
-            </ul>
-        </li>
-        <li>Recipe Dessert
-            <ul>
-            <li>Top</li>
-            <li>Bottom</li>
-            </ul>
-        </li>
-    </ul>
-    </li>
-    <li>Systems Testing
-        <ul>
-        <li>User Actions and Validation
-            <ul>
-            <li>Main Page - Registration Form</li>
-            <li>Main Page - Comments</li>
-            <li>Recipe Page - Recipe Step Controls</li>
-            <li>Recipe Page - Recipe Print Button</li>
-            </ul>
-        </li>
-        <li>Action Point and Link Accessibility Highlighting
-            <ul>
-            <li>Menu</li>
-            <li>Footer</li>
-            <li>Main Page</li>
-            <li>Recipe Page</li>
-            </ul>
-        </li>
-        <li>Media Adjustments
-            <ul>
-            <li>Main Page</li>
-            <li>Recipe Page</li>
-            </ul>
-        </li>
-        <li>Browser Tests</li>
-        <li>Link Integrity Checks</li>
-        <li>Code Checks</li>
-        <li>Lighthouse Site Checks</li>
-        </ul>
-    </li>
-</ul>
 
 ## Introduction
 The Culinary Delight Wonderful Weekly Dishes site provides weekly recipes
@@ -170,7 +101,7 @@ Last Name Blank<br>
 ![Registration Last Name Blank](/doc/readme-images/registration-last-name-blank-crop.png "Registration Last Name Blank")
 
 Email Blank<br>
-![Registration email Blank](/doc/readme-images/registration-email-blank-crop.png "Registration email Blank")
+![Registration email Blank](/doc/readme-images/registration-email-invalid-crop.png "Registration email Blank")
 
 Email Invalid<br>
 This was originally omitted. Added the regular expression test in main-page.js
