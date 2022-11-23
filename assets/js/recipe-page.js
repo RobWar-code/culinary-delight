@@ -11,6 +11,9 @@ const CDShared = {
     stepNum: 1
 };
 
+/*
+ * Set-up events
+ */
 document.addEventListener("DOMContentLoaded", function () {
     // Load and display recipe data
     loadRecipe();
@@ -299,6 +302,12 @@ function findRecipe(weekNum, course) {
     alert("findRecipe -recipe not found matching: " + title);
 }
 
+/**
+ * Get the number of recipe steps for given week and course
+ * @param {integer} weekNum 
+ * @param {string} course 
+ * @returns 
+ */
 function getNumRecipeSteps(weekNum, course) {
     let recipe = findRecipe(weekNum, course);
     return recipe.steps.length;
@@ -386,7 +395,6 @@ function removeRecipeStepText() {
  */
 function printRecipe() {
     // Prepare the window
-    console.log("Got Here");
     let win = window.open("", "", "width=350px, height=450px");
     // Prepare HTML
     let recipeHTML = `
