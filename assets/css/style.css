@@ -65,8 +65,7 @@ button:hover {
     text-align: center;
 }
 #modal-message {
-    position: absolute;
-    top: 90px;
+    margin-top: 60px;
     color: #303020;
     font-style: italic;
     padding: 0 5px 0 5px;

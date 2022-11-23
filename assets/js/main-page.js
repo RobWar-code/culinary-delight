@@ -67,7 +67,7 @@ function registrationSubmitted(event) {
     // Check whether already submitted
     let submitStatus = document.getElementById("registration-status").textContent;
     if (submitStatus === "Registration Submitted") {
-        alert("Registration already submitted");
+        modalMessage("Registration already submitted");
         return;
     }
     // Validate the email address
@@ -77,7 +77,7 @@ function registrationSubmitted(event) {
     // https://www.simplilearn.com/tutorials/javascript-tutorial/email-validation-in-javascript
     let validEmailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (!email.match(validEmailRegex)) {
-        alert("Please enter a VALID email address");
+        modalMessage("Please enter a VALID email address");
     }
     else {
 
@@ -91,7 +91,7 @@ function registrationSubmitted(event) {
             }
         }
         if (!allDone) {
-            alert("You have not completed all fields in the form!");
+            modalMessage("You have not completed all fields in the form!");
             return;
         }
 
@@ -113,7 +113,7 @@ function commentsSubmitted(event) {
     // Check whether comments already submitted
     let statusElem = document.getElementById("comments-status");
     if (statusElem.innerText === "Comments Submitted") {
-        alert("You have already submitted comments");
+        modalMessage("You have already submitted comments");
         return;
     }
     // Check whether the comment is ""
@@ -127,25 +127,4 @@ function commentsSubmitted(event) {
     statusElem.innerText = "Comments Submitted";
 
     // In a live setting a call to the relevant server function would occur here
-}
-
-/**
- * Display a message in the modal pop-up
- * @param {string} message 
- */
-function modalMessage (message) {
-    // Open the modal element
-    modalElem = document.getElementById("modal-item");
-    modalElem.classList.add("open");
-    // Insert the message
-    messageElem = document.getElementById("modal-message");
-    messageElem.innerText = message;
-}
-
-/**
- * Close the modal pop-up element
- */
-function closeModal () {
-    modalElem = document.getElementById("modal-item");
-    modalElem.classList.remove("open");
 }
