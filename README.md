@@ -282,11 +282,10 @@ Javascript - Data Objects File
 ![JShint Check Data JS](/doc/readme-images/cd-js-check-data.png "JShint Check Data JS")
 
 ## Lighthouse Site Checks
-The key thing to notice here is that the performance is poor to middling. 
-This is due to using javascript to build the pages. In live practice this would
-be better done on the server (php or python).
+One thing to notice here is that the performance is down. 
+This may be due to the two large background images used.
 
 The colour contrast pulls the accessibility score down a bit. This is a slight trade-off
 for the use of site colours as backgrounds.
 
-![Google Chrome Lighthouse Report](/doc/readme-images/cd-lighthouse-report.png "Google Chrome Lighthouse Report")
+![Google Chrome Lighthouse Report](/doc/readme-images/cd-lighthouse-report-crop.png "Google Chrome Lighthouse Report")

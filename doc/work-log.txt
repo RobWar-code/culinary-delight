@@ -1,14 +1,20 @@
 Work Due
     
-    Work Arising from Review 22/11/22
+    Release to CI
+
+
+Work Done
+    24/11/22
+    
+    * Work Arising from Review 22/11/22
 
         CSS/HTML:
 
-           * Dark bronze instead of red and orange for user information text
+            * Dark bronze instead of red and orange for user information text
 
-           * Use .webp images rather than .png images for large images
+            * Use .webp images rather than .png images for large images
 
-            Replace the CSS code-check link
+            * Replace the CSS code-check link - withdrawn, problem with link
                 Validate in live site
 
             * Need additional Comments in CSS (ie: Globals)
@@ -26,7 +32,7 @@ Work Due
 
         Systems Tests:
         
-            Re-run the linter and checkers
+            * Re-run the linter and checkers
 
         General:
             * Remove surplus image files
@@ -50,10 +56,6 @@ Work Due
 
             * Credit all images to the Author
 
- 
-
-
-Work Done
     11/11/22
         * Prepare the readme file for the project
             * Full size screen shots
