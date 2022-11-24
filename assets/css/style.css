@@ -300,6 +300,11 @@ footer {
     padding: 8px;
     margin-right: 5px;
 }
+#css-check-div {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
 /* Recipe Page */
 #article-section {
     text-align: center;
