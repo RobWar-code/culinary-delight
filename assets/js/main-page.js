@@ -101,6 +101,9 @@ function registrationSubmitted(event) {
         status.style.display = "inline-block";
         status.innerText = "Registration Submitted";
 
+        // Clear the fields
+        document.getElementById("registration-form").reset()
+
         // For future use, restore the default call to the action (form.submit())
     }
 }
@@ -126,6 +129,7 @@ function commentsSubmitted(event) {
     // Update the status
     statusElem.style.display = "inline-block";
     statusElem.innerText = "Comments Submitted";
+    commentElem.value = ""
 
     // In a live setting a call to the relevant server function would occur here
 }
