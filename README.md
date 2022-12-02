@@ -9,6 +9,8 @@ for the simple home budget.
 
 Note that currently only one meal is included for demonstration purposes.
 
+![amiresponsive Media Size Overview](/doc/readme-images/cd-amiresponsive.png "amiresponsive Media Size Overview")
+
 ## Site Features
 The main page provides an overview of the site and an introduction to the
 dishes of the week, along with a registration form, for email updates, a
@@ -48,16 +50,18 @@ Strong site branding is provided by the use of a definitive logo, site
 colours, consistent font and site introduction.
 
 ## Technical Notes
-The information for the recipes is maintained in assets/js/recipe-data.js,
+The information for the recipes is maintained in assets/js/recipe-data.js:
+
+[assets/js/recipe-data.js](/assets/js/recipe-data.js)
+
+You can use the template doc/recipe-data-template.txt:
+
+[doc/recipe-data-template.txt](/doc/recipe-data-template.txt)
+
 which is used to build the recipe pages using the module 
 assets/js/recipe-page.js.
 
-## Credits
-Sprig of parsley in logo - Wikimedia Commons
-
-Apple Tarte Tatin recipe - CLASSIC Mary Berry (BBC Books)
-
-All images - work of the Author, Robin Warner
+[assets/js/recipe-page.js](/assets/js/recipe-page.js)
 
 ## Development Information
 Project notes are contained in the doc directory, these include the
@@ -108,11 +112,38 @@ allow for a larger range of recipes.
 
 An "Other Weeks" menu option could be included, with a drop-down selector.
 
-## Tools used for Development
-CSS
-Javascript
-Gitpod Editor/Development Environment
-Gitpod Version Control
+## Tools and Technologies
+HTML - page content and context
+
+[HTML Reference](https://en.wikipedia.org/wiki/HTML)
+
+CSS - Content syling
+
+[CSS Reference](https://en.wikipedia.org/wiki/CSS)
+
+Javascript - Event control and page preparation
+
+[Javascript Reference](https://en.wikipedia.org/wiki/JavaScript)
+
+Gitpod Editor/Development Environment used as the cloud based IDE
+
+[GitPod Environment](https://gitpod.io)
+
+Gitpod Version Control (git)
+
+[Git](https://git-scm.com)
+
+GitHub - used as the repository for the project files
+
+[GitHub](https://github.com)
+
+GitHub Pages - used as the deployment platform for the site
+
+[GitHub Pages](https://pages.github.com)
+
+gimp - graphics application, used to edit, crop, scale and convert file formats
+
+[gimp](https://www.gimp.org)
 
 ## Site Images
 These are all taken at display width 1200px or near.
@@ -141,112 +172,14 @@ These are all taken at display width 1200px or near.
 
 Click Here to see [Systems Testing File](/SYSTEMS-TESTS.md)
 
-## Browser Tests
+## Credits
+Sprig of parsley in logo - Wikimedia Commons
 
-The browsers tested are:
+[Wikimedia commons - sprig of parsley](https://commons.wikimedia.org/wiki/File:Parsley_(49652566678).png)
 
-Chrome
+Apple Tarte Tatin recipe - CLASSIC Mary Berry (BBC Books)
 
-Firefox
+[CLASSIC Mary Berry Book](https://www.amazon.co.uk/Classic-Delicious-no-fuss-recipes-Marys/dp/1785943243/ref=sr_1_1?adgrpid=1181975898185769&hvadid=73873694057538&hvbmt=be&hvdev=c&hvlocphy=69213&hvnetw=o&hvqmt=e&hvtargid=kwd-73873627802310%3Aloc-188&hydadcr=12334_1886090&keywords=classic+mary+berry+cookbook&qid=1670001195&sr=8-1)
 
-Opera
+All images - work of the Author, Robin Warner
 
-Edge
-
-The Following tests were performed on each:
-
-Main Page Display 1600px
-
-Main Page Display 1200px
-
-Recipe Page Display 1600px
-
-Recipe Page Display 1200px
-
-Logic Tests:
-
-Recipe Page Next
-
-Recipe Page Previous
-
-Recipe Page Scroll
-
-Recipe Page Print
-
-Main Page Registration Submit
-
-Main Page Comments Submit
-
-Browser Screen Prints
-
-Chrome
-
-![Chrome Screenshot](/doc/readme-images/browser-chrome-1600px.png "Chrome Screenshot")
-
-Edge
-
-![Edge Screenshot](/doc/readme-images/browser-edge-1600px.jpeg "Edge Screenshot")
-
-Firefox
-
-![Firefox Screenshot](/doc/readme-images/browser-firefox-1600px.png "Firefox Screenshot")
-
-Opera
-
-![Opera Screenshot](/doc/readme-images/browser-opera-1600px.png "Opera Screenshot")
-
-## Link Integrity Checks
-Both the recipe page and main page links were tested
-
-Bug: Omission of open on new tab for credits link - fixed
-
-## Code Checks
-Javascript is written to ES6 compliance.
-
-Note that javascript undeclared variables are in the file
-recipe-data.js
-
-Bugs: 
-
-Sections without heading elements in html - fixed
-
-Images without src attribute - fixed
-
-Missing "let" in some declarations - fixed
-
-HTML - Main Page
-
-![W3C Check HTML Main Page](/doc/readme-images/cd-main-page-html.png "W3C Check HTML Main Page")
-
-HTML - Recipe Page
-
-![W3C Check HTML Recipe Page](/doc/readme-images/cd-recipe-html.png "W3C Check HTML Recipe Page")
-
-CSS
-
-![W3C Check CSS](/doc/readme-images/cd-css-check.png "W3C Check CSS")
-
-Javascript - Main Page
-
-![JShint Check Main Page JS](/doc/readme-images/cd-js-check-main-page.png "JShint Check Main Page JS")
-
-Javascript - Recipe Page
-
-![JShint Check Recipe Page JS](/doc/readme-images/cd-js-check-recipe.png "JShint Check Recipe Page JS")
-
-Javascript - Modal Functions File
-
-![JShint Check Modal Functions JS](/doc/readme-images/cd-js-check-modal.png "JShint Check Modal Functions JS")
-
-Javascript - Data Objects File
-
-![JShint Check Data JS](/doc/readme-images/cd-js-check-data.png "JShint Check Data JS")
-
-## Lighthouse Site Checks
-One thing to notice here is that the performance is down. 
-This may be due to the two large background images used.
-
-The colour contrast pulls the accessibility score down a bit. This is a slight trade-off
-for the use of site colours as backgrounds.
-
-![Google Chrome Lighthouse Report](/doc/readme-images/cd-lighthouse-report-crop.png "Google Chrome Lighthouse Report")

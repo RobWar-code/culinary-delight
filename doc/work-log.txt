@@ -10,25 +10,29 @@ Work Due
 
         * Label the next/prev buttons on the recipe page
 
-        Put the modal pop-up html in an aside rather than a div
+        * Put the modal pop-up html in an aside rather than a div
 
-        Move media screenshot to introduction
+        * Move media screenshot to introduction
 
-        Links in readme to the recipe-data file and the template
+        * Links in readme to the recipe-data file and the template
 
-        Move credits in readme to bottom of file
-            Add link to book
-            Add Link to the wikimedia page
+        * Move credits in readme to bottom of file
+            * Add link to book
+            * Add Link to the wikimedia page
 
-        Tools Used, change to Tools & Technologies - see example in message from Tim
+        * Tools Used, change to Tools & Technologies - see example in message from Tim
 
+        * Move the specialist tests to SYSTEMS-TESTS.md file
+
+
+        Main Page Readme - change the recipe bottom images to allow for
+        change to step controls
+        
         Redo jshint reference in JS Source drop the es from es11
 
         Do the lighthouse test for each page
 
         Consider changing backgrounds to increase contrast
-
-        Move the specialist tests to SYSTEMS-TESTS.md file
 
         .webp rather than .png on recipe page
 
