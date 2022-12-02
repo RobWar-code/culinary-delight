@@ -65,12 +65,10 @@ project analysis, skeleton designs, work flow notes etc.
 
 ## Deployment
 
-## Deployment
-
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/RobWar-code/culinary-delight), navigate to the Settings tab 
-  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
-  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+1. In the [GitHub repository](https://github.com/RobWar-code/culinary-delight), navigate to the Settings tab 
+2. From the source section drop-down menu, select the **Main** Branch, then click "Save".
+3. The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found [here](https://robwar-code.github.io/culinary-delight)
 
@@ -102,43 +100,6 @@ The summary picture for each recipe should be placed in the respective
 directory and 512px and 1200px versions should be supplied.
 
 The week number references can be updated in index.html
-
-/* Recipe Template
-    {
-
-        title: "", // String the name of the dish
-
-        course: "main", // String, "main", "dessert" or "starter"
-
-        description: "", // String, 1 to three sentences describing the meal
-
-        credits: "", // String, where the recipe came from, "" if not applicable
-
-        ingredients: [
-
-            "", // String, ingredient item
-
-        ],
-
-        utensils: [
-
-            "", // String, utensil item
-
-        ],
-
-        steps: [
-
-            [
-
-                "", // String one or more paragraphs for recipe step
-
-            ]
-
-        ]
-
-    }
-
-*/
 
 ### Further Developments for Live Site
 It is suggested that the recipe data could be moved to the server and
@@ -237,7 +198,7 @@ Opera
 ## Link Integrity Checks
 Both the recipe page and main page links were tested
 
-    Bug: Omission of open on new tab for credits link - fixed
+Bug: Omission of open on new tab for credits link - fixed
 
 ## Code Checks
 Javascript is written to ES6 compliance.
