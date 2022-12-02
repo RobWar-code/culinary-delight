@@ -378,28 +378,50 @@ footer {
 #slider {
     width: calc(85% - 25px);
 }
+#step-text-next {
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    font-size: 90%;
+    color: white;
+    background: #002020;
+    margin-top: 1px;
+    padding: 0 2px 2px 2px;
+}
 #next-step-btn {
     position: absolute;
-    left: 5%;
+    left: 5px;
     display: inline-block;
     vertical-align: top;
     font-size: 145%;
+    margin-right: 20px;
 }
 #next-step-btn:hover {
     background: #e0e040;
 }
 #controls-text {
-    width: 70%;
+    width: 50%;
     text-align: center;
     font-style: italic;
     font-size: 100%;
     display: inline-block;
 }
+#step-text-prev {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    font-size: 90%;
+    color: white;
+    background: #002020;
+    margin-top: 1px;
+    padding: 0 2px 2px 2px;
+}
 #prev-step-btn {
     position: absolute;
-    right: 5%;
+    right: 5px;
     display: inline-block;
     font-size: 145%;
+    margin-left: 20px;
 }
 #prev-step-btn:hover {
     background: #e0e040;
