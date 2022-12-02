@@ -4,11 +4,11 @@ Work Due
 
     Modifications following review 02/12/22
 
-        Clear registration form after submit
+        * Clear registration form after submit
 
-        Clear comments textarea after submit
+        * Clear comments textarea after submit
 
-        Label the next/prev buttons on the recipe page
+        * Label the next/prev buttons on the recipe page
 
         Put the modal pop-up html in an aside rather than a div
 
@@ -32,10 +32,8 @@ Work Due
 
         .webp rather than .png on recipe page
 
-
-
-
-
+        Systems Testing
+            Redo media screenshots for recipe step controls
 
 Work Done
     24/11/22
