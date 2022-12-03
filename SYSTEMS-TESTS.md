@@ -145,6 +145,8 @@ Comments Already Submitted<br>
 ![Comments Already Submitted](/doc/readme-images/comments-already-submitted-crop.png "Comments Already Submitted")
 
 #### Recipe Page - Recipe Step Controls
+Note that these tests were performed BEFORE the button labels were added - no impact.
+
 Next Button Valid<br>
 ![Recipe Next Step Click Valid](/doc/readme-images/recipe-next-step-valid-crop.png "Recipe Next Step Click Valid")
 
