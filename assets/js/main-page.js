@@ -1,4 +1,4 @@
-/* jshint esversion: es11 */
+/* jshint esversion: 11 */
 /* Culinary Delight - Main Page Events and Functions */
 /* Dependencies:
     recipe-data.js
@@ -102,7 +102,7 @@ function registrationSubmitted(event) {
         status.innerText = "Registration Submitted";
 
         // Clear the fields
-        document.getElementById("registration-form").reset()
+        document.getElementById("registration-form").reset();
 
         // For future use, restore the default call to the action (form.submit())
     }
@@ -129,7 +129,7 @@ function commentsSubmitted(event) {
     // Update the status
     statusElem.style.display = "inline-block";
     statusElem.innerText = "Comments Submitted";
-    commentElem.value = ""
+    commentElem.value = "";
 
     // In a live setting a call to the relevant server function would occur here
 }

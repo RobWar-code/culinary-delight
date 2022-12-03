@@ -1,4 +1,4 @@
-/* jshint esversion: es11 */
+/* jshint esversion: 11 */
 /*
     Functions for activating and closing the modal pop-up
 */
