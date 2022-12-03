@@ -16,7 +16,7 @@ body {
     background-color: #007070;
 }
 a {
-    color: #707040;
+    color: #505040;
 }
 a:hover {
     background: white;
@@ -85,7 +85,7 @@ button:hover {
 #headline-div {
     width: 100%;
     height: 90px;
-    background-color: #009090;
+    background-color: #008080;
 }
 #logo-div {
     width: 346px;
@@ -276,7 +276,7 @@ footer {
     height: 50px;
     margin-top: 10px;
     padding-top: 10px;
-    background: #007070;
+    background: #008080;
 }
 .page-top-link-div {
     width: 30%;
