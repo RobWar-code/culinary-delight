@@ -32,9 +32,9 @@ Work Due
 
         Do the lighthouse test for each page
 
-        Consider changing backgrounds slightly to increase contrast
+        * Consider changing backgrounds slightly to increase contrast
 
-        .webp rather than .png on recipe page
+        * Use 512px image rather than 1200 on recipe page for summary-pic
 
         * Systems Testing
            * Redo media screenshots for recipe step controls

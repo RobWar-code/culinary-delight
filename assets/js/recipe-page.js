@@ -98,7 +98,7 @@ function loadRecipe() {
     if (weekString.length > 2) {
         weekString = weekString.slice(weekString.length - 2);
     }
-    filePath = "assets/images/recipe-" + weekString + "-" + CDShared.course + "/summary-pic-1200px.png";
+    filePath = "assets/images/recipe-" + weekString + "-" + CDShared.course + "/summary-pic-512px.png";
     finalImgElem.setAttribute("src", filePath);
 
     // Set the slider range
