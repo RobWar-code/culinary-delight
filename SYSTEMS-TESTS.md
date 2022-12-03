@@ -106,7 +106,17 @@ This may be due to the two large background images used.
 The colour contrast pulls the accessibility score down a bit. This is a slight trade-off
 for the use of site colours as backgrounds.
 
+Main Page
+
 ![Google Chrome Lighthouse Report](/doc/readme-images/cd-lighthouse-report-crop.png "Google Chrome Lighthouse Report")
+
+Recipe Page - Main Course
+
+![Google Chrome Lighthouse Report - Main Course](/doc/readme-images/cd-lighthouse-main-course-crop.png "Google Chrome Lighthouse Report - Main Course")
+
+Recipe Page - Dessert
+
+![Google Chrome Lighthouse Report - Main Course](/doc/readme-images/cd-lighthouse-dessert-crop.png "Google Chrome Lighthouse Report - Dessert")
 
 ## Systems Testing
 ### User Actions and Validation
