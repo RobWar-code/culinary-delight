@@ -2,7 +2,10 @@ Work Due
     
     Release to CI
 
-    Modifications following review 02/12/22
+ 
+Work Done
+   04/12/22
+    * Modifications following review 02/12/22
 
         * Clear registration form after submit
 
@@ -30,7 +33,7 @@ Work Due
         
         * Redo jshint reference in JS Source drop the es from es11
 
-        Do the lighthouse test for each page
+        * Do the lighthouse test for each page
 
         * Consider changing backgrounds slightly to increase contrast
 
@@ -38,8 +41,7 @@ Work Due
 
         * Systems Testing
            * Redo media screenshots for recipe step controls
-
-Work Done
+           
     24/11/22
     
     * Work Arising from Review 22/11/22
